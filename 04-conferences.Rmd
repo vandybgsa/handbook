@@ -1,0 +1,8 @@
+# Conferences {#conferences}
+
+Here is a (brief) list of conferences that are good to attend
+
+* ENAR
+* JSM
+* WSDS
+* useR
