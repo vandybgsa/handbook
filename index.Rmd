@@ -1,5 +1,5 @@
 --- 
-title: "Vanderbilt Biostatistics PhD Student Handbook"
+title: "Vanderbilt Biostatistics Graduate Student Handbook"
 author: "Lucy D'Agostino McGowan"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
