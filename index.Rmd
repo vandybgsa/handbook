@@ -1,0 +1,16 @@
+--- 
+title: "Vanderbilt Biostatistics PhD Student Handbook"
+author: "Lucy D'Agostino McGowan"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+biblio-style: apalike
+link-citations: yes
+github-repo: lucymcgowan/handbook
+description: "This is a handbook written by students for students in the Vanderbilt Biostatistics program"
+---
+
+# Introduction
+
+Welcome to Vanderbilt's Biostatistics Graduate Program! We are so happy you are here. 
