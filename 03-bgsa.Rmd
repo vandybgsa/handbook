@@ -1,29 +1,31 @@
-# Biostatistics Gradaute Student Association {#bgsa}
+# Biostatistics Graduate Student Association {#bgsa}
+
+The Biostatistics Graduate Student Association was founded in 2016 by a group of enthusastic students who were particularly excited about getting food at journal club, nerdy t-shirts, and sharing knowledge. It is a recognized organization of Vanderbilt University as well as an ASA student chapter. Currently, it functions primarily to host bi-monthly student-run Journal Clubs. Information about electing officers is included in the constitution ($\S$ \@ref(bgsa-constitution-officers)).
 
 ## Mission
 
 We seek to facilitate an environment for students to engage in discussions regarding biostatistics and data science concepts in order to further their knowledge and understanding of the current state of the field.
 
-## Constitution 
+## Constitution {#bgsa-constitution}
 
 BIOSTATISTICS GRADUATE STUDENT ASSOCIATION CONSTITUTION
 
-ARTICLE I
+### ARTICLE I
 NAME OF CLUB
 
 The name of this club is Biostatistics Graduate Student Association.
 
-ARTICLE II
+### ARTICLE II
 PURPOSE OF CLUB
 
 The purpose of the Biostatistics Graduate Student Association is to facilitate an environment for students to engage in discussions regarding biostatistics and data science concepts in order to further their knowledge and understanding of the current state of the field.
 
-ARTICLE III
+### ARTICLE III
 MEMBERSHIP
 
 The Biostatistics Graduate Student Association encompasses all biostatistics graduate students as well as students with an interest in biostatistics/data science. 
 
-ARTICLE IV
+### ARTICLE IV {#bgsa-constitution-officers}
 QUALIFICATION AND ELECTION OF OFFICERS
 
 Section 1.
@@ -37,7 +39,7 @@ The Executive Board will consist of four officer positions. There will be a Pres
 Section 3.
 New officers will be nominated and elected by club members at the completion of the academic year. 
 
-ARTICLE V
+### ARTICLE V
 DUTIES OF OFFICERS
 
 Section 1.
@@ -67,20 +69,20 @@ B.	Pay all charges, collecting all receipts, maintaining a balanced account, and
 C.	The Treasurer will perform such duties as are delegated to him or her by the President. 
 D.	The Treasurer shall serve as the official liaison between the club and the Student Finance Committee of Vanderbilt University (also known as the Activity Fee Committee).
 
-ARTICLE VI
+### ARTICLE VI
 ADVISOR
 
 Section 1.
 The role of the advisor is to:
 A.	Serve as the official staff representative of the club.
 
-ARTICLE VII
+### ARTICLE VII
 RESPONSIBILITIES
 
 Section 1. 
 This club accepts full financial responsibility for all activities that bear its name as official sponsor, and will adhere to college regulations.
 
-ARTICLE VIII
+### ARTICLE VIII
 AMENDMENTS
 This Constitution may be amended by a two-thirds vote of active members, which will follow the presentation of a petition containing the proposed amendment.
 

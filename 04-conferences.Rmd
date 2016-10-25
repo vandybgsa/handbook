@@ -1,8 +1,26 @@
 # Conferences {#conferences}
 
-Here is a (brief) list of conferences that are good to attend
+Here is a (brief) list of conferences that we like to attend:
 
-* ENAR
-* JSM
-* WSDS
-* useR
+conference | time of year | abstracts due | student scholarships
+-----------|--------------|---------------|----------------------
+ENAR       | March        | early/mid October | available
+JSM        | 1st week of August | student awards: Nov/Dec | [available](https://www.amstat.org/asa/education/Student-Paper-Competition-Travel-Award-to-Attend-the-Joint-Statistical-Meetings.aspx)
+WSDS       | late October | -- | available
+useR       | June/July    | February | available
+APHA       | late October/early November | March | available
+SAS Global Forum | April | September/October | [available](https://support.sas.com/learn/ap/student/amb.html)
+## Scholarships
+
+Students in our department have had success applying to the following funding sources
+
+* We have had two 1st place successes for the Government Statistics Section [Data Challenge](http://community.amstat.org/governmentstatisticssection/new-item2/new-item). 
+    * Chat with [Alice](http://www.vanderbilt.edu/biostatistics/graduate/students/Alice-toll/), [Ryan](http://www.vanderbilt.edu/biostatistics/graduate/students/Ryan-Jarrett/), or [Lucy](http://www.vanderbilt.edu/biostatistics/graduate/students/lucy-dagostino-mcgowan/) for more information.
+* Women in Statistics and Data Science Travel Award. 
+    * Chat with [Alli](http://www.vanderbilt.edu/biostatistics/graduate/students/allison-hainline/), [Jacquelyn](http://www.vanderbilt.edu/biostatistics/graduate/students/jacquelyn-neal/), [Hannah](http://www.vanderbilt.edu/biostatistics/graduate/students/Hannah%20Weeks/), or [Lucy](http://www.vanderbilt.edu/biostatistics/graduate/students/lucy-dagostino-mcgowan/) for more information.
+* useR Student Scholarship
+    * Chat with [Laurie](http://www.vanderbilt.edu/biostatistics/graduate/students/lauren-samuels/) for more information.
+* APHA Applied Public Health Statistics section Student Paper Award
+    * Chat with [Lucy](http://www.vanderbilt.edu/biostatistics/graduate/students/lucy-dagostino-mcgowan/) for more information. 
+* SAS Global Forum Student Ambassador
+    * Chat with [Lucy](http://www.vanderbilt.edu/biostatistics/graduate/students/lucy-dagostino-mcgowan/) for more information. 
