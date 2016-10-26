@@ -1,6 +1,6 @@
 --- 
 title: "Vanderbilt Biostatistics Graduate Student Handbook"
-author: "Lucy D'Agostino McGowan"
+author: "Lucy D'Agostino McGowan, Alli"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -16,3 +16,4 @@ description: "This is a handbook written by students for students in the Vanderb
 Welcome to Vanderbilt's Biostatistics Graduate Program! We are so happy you are here. This is meant to serve as a bit of a manual for incoming students to help your transition go a bit smoother. We have compiled our best & wildest advice into a beautiful [bookdown](https://bookdown.org/yihui/bookdown/) book. ENJOY (or else...)
 
 ![](http://imgs.xkcd.com/comics/manuals.png)
+
