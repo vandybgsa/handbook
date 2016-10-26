@@ -71,12 +71,17 @@ MathJax.Hub.Config({
 <ul class="summary">
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
 <li class="chapter" data-level="2" data-path="computing.html"><a href="computing.html"><i class="fa fa-check"></i><b>2</b> Computing Tips</a><ul>
-<li class="chapter" data-level="2.1" data-path="computing.html"><a href="computing.html#downloads"><i class="fa fa-check"></i><b>2.1</b> Downloads</a></li>
+<li class="chapter" data-level="2.1" data-path="computing.html"><a href="computing.html#downloads"><i class="fa fa-check"></i><b>2.1</b> Downloads</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="computing.html"><a href="computing.html#homebrew"><i class="fa fa-check"></i><b>2.1.1</b> Homebrew</a></li>
+<li class="chapter" data-level="2.1.2" data-path="computing.html"><a href="computing.html#bash-it"><i class="fa fa-check"></i><b>2.1.2</b> Bash-it</a></li>
+<li class="chapter" data-level="2.1.3" data-path="computing.html"><a href="computing.html#r"><i class="fa fa-check"></i><b>2.1.3</b> R</a></li>
+</ul></li>
 <li class="chapter" data-level="2.2" data-path="computing.html"><a href="computing.html#file-organization"><i class="fa fa-check"></i><b>2.2</b> File Organization</a><ul>
 <li class="chapter" data-level="2.2.1" data-path="computing.html"><a href="computing.html#naming-conventions"><i class="fa fa-check"></i><b>2.2.1</b> Naming conventions</a></li>
 <li class="chapter" data-level="2.2.2" data-path="computing.html"><a href="computing.html#folders"><i class="fa fa-check"></i><b>2.2.2</b> Folders</a></li>
 </ul></li>
-<li class="chapter" data-level="2.3" data-path="computing.html"><a href="computing.html#statistical-software"><i class="fa fa-check"></i><b>2.3</b> Statistical Software</a></li>
+<li class="chapter" data-level="2.3" data-path="computing.html"><a href="computing.html#github"><i class="fa fa-check"></i><b>2.3</b> Github</a></li>
+<li class="chapter" data-level="2.4" data-path="computing.html"><a href="computing.html#statistical-software"><i class="fa fa-check"></i><b>2.4</b> Statistical Software</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="bgsa.html"><a href="bgsa.html"><i class="fa fa-check"></i><b>3</b> Biostatistics Graduate Student Association</a><ul>
 <li class="chapter" data-level="3.1" data-path="bgsa.html"><a href="bgsa.html#mission"><i class="fa fa-check"></i><b>3.1</b> Mission</a></li>
@@ -118,9 +123,9 @@ MathJax.Hub.Config({
 <div id="downloads" class="section level2">
 <h2><span class="header-section-number">2.1</span> Downloads</h2>
 <p>Here are some things you should get on your computer before you get started.</p>
-<ol style="list-style-type: decimal">
-<li>Install homebrew. Homebrew is essentially a package manager. Paste the command below in your terminal prompt.</li>
-</ol>
+<div id="homebrew" class="section level3">
+<h3><span class="header-section-number">2.1.1</span> Homebrew</h3>
+<p>Install homebrew. Homebrew is essentially a package manager. Paste the command below in your terminal prompt.</p>
 <pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre>
 <p>After doing that double check that you’ve got it installed correctly by running</p>
 <pre><code>brew doctor</code></pre>
@@ -132,17 +137,21 @@ MathJax.Hub.Config({
 <li>cowsay</li>
 <li>thefuck</li>
 </ul>
-<ol start="2" style="list-style-type: decimal">
-<li>Make your terminal beautiful.</li>
-</ol>
+</div>
+<div id="bash-it" class="section level3">
+<h3><span class="header-section-number">2.1.2</span> Bash-it</h3>
+<p>Make your terminal beautiful.</p>
 <p>I really like Bash-it. Both because I like to say it outloud, and because it makes my terminal look baller. It has sweet plugins (like showing git branches!) and awesome aliases that will save your pretty little fingers.</p>
 <p>To install, type this in terminal,</p>
 <pre><code>git clone https://github.com/revans/bash-it.git ~/.bash_it</code></pre>
 <p>then run,</p>
 <pre><code> ~/.bash_it/install.sh</code></pre>
-<ol start="3" style="list-style-type: decimal">
-<li>If you don’t already have it, download <a href="https://cran.r-project.org"><code>R</code></a> &amp; if you’d like <a href="https://www.rstudio.com/products/rstudio/#Desktop">RStudio</a></li>
-</ol>
+<p>I use a slightly edited <code>bobby</code> theme. <a href="https://github.com/Bash-it/bash-it/wiki/Themes">Here</a> are some other themes to choose from.</p>
+</div>
+<div id="r" class="section level3">
+<h3><span class="header-section-number">2.1.3</span> R</h3>
+<p>If you don’t already have it, download <a href="https://cran.r-project.org"><code>R</code></a> &amp; if you’d like <a href="https://www.rstudio.com/products/rstudio/#Desktop">RStudio</a></p>
+</div>
 </div>
 <div id="file-organization" class="section level2">
 <h2><span class="header-section-number">2.2</span> File Organization</h2>
@@ -180,8 +189,20 @@ MathJax.Hub.Config({
 <p>The <code>archive</code> folder contains projects that I have completed. These are backed up every time a new folder is added, but not as regularly as the <code>working</code> folder.</p>
 </div>
 </div>
+<div id="github" class="section level2">
+<h2><span class="header-section-number">2.3</span> Github</h2>
+<p>If you do not already have one, set up a <a href="https://github.com">github account</a> – make sure that you get an <a href="https://education.github.com/">education discount</a> so you can set up private repos.</p>
+<div class="figure">
+<img src="http://imgs.xkcd.com/comics/git.png" />
+
+</div>
+<ul>
+<li>Jenny Bryan has an awesome course on <a href="http://happygitwithr.com/">Github for the useR</a>.</li>
+<li>For some <a href="http://www.commitlogsfromlastnight.com">giggles</a></li>
+</ul>
+</div>
 <div id="statistical-software" class="section level2">
-<h2><span class="header-section-number">2.3</span> Statistical Software</h2>
+<h2><span class="header-section-number">2.4</span> Statistical Software</h2>
 <p>In this department, we conduct the majority of our analyses using <code>R</code> &amp; <code>python</code>. We use <code>Stata</code> for one class, so you may want to get that as well. If you are interested in learning SAS, check <a href="https://support.sas.com/edu/schedules.html?ctry=us&amp;id=2588">this</a> out.</p>
 
 </div>

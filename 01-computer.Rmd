@@ -6,7 +6,8 @@ Most (read: all) of the students here use macs. It is not required, but it will 
 
 Here are some things you should get on your computer before you get started. 
 
-1. Install homebrew. Homebrew is essentially a package manager. Paste the command below in your terminal prompt.
+### Homebrew
+Install homebrew. Homebrew is essentially a package manager. Paste the command below in your terminal prompt.
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -26,7 +27,8 @@ Some things I recommend getting now that you have brew installed:
 * cowsay
 * thefuck
 
-2. Make your terminal beautiful. 
+### Bash-it
+Make your terminal beautiful. 
 
 I really like Bash-it. Both because I like to say it outloud, and because it makes my terminal look baller. It has sweet plugins (like showing git branches!) and awesome aliases that will save your pretty little fingers.
 
@@ -42,7 +44,11 @@ then run,
  ~/.bash_it/install.sh
 ```
 
-3. If you don't already have it, download [`R`](https://cran.r-project.org) & if you'd like [RStudio](https://www.rstudio.com/products/rstudio/#Desktop)
+I use a slightly edited `bobby` theme. [Here](https://github.com/Bash-it/bash-it/wiki/Themes) are some other themes to choose from.
+
+### R
+
+If you don't already have it, download [`R`](https://cran.r-project.org) & if you'd like [RStudio](https://www.rstudio.com/products/rstudio/#Desktop)
 
 
 ## File Organization
@@ -82,6 +88,14 @@ The consistent naming convention allows me to have set code to run everything fo
 
 The `archive` folder contains projects that I have completed. These are backed up every time a new folder is added, but not as regularly as the `working` folder.
 
+## Github
+
+If you do not already have one, set up a [github account](https://github.com) -- make sure that you get an [education discount](https://education.github.com/) so you can set up private repos.
+
+![](http://imgs.xkcd.com/comics/git.png)
+
+* Jenny Bryan has an awesome course on [Github for the useR](http://happygitwithr.com/). 
+* For some [giggles](http://www.commitlogsfromlastnight.com)
 
 ## Statistical Software
 
