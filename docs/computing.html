@@ -39,8 +39,8 @@ MathJax.Hub.Config({
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="computing.html">
-<link rel="next" href="conferences.html">
+<link rel="prev" href="index.html">
+<link rel="next" href="bgsa.html">
 
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -112,83 +112,77 @@ MathJax.Hub.Config({
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="bgsa" class="section level1">
-<h1><span class="header-section-number">Chapter 3</span> Biostatistics Graduate Student Association</h1>
-<p>The Biostatistics Graduate Student Association was founded in 2016 by a group of enthusastic students who were particularly excited about getting food at journal club, nerdy t-shirts, and sharing knowledge. It is a recognized organization of Vanderbilt University as well as an ASA student chapter. Currently, it functions primarily to host bi-monthly student-run Journal Clubs. Information about electing officers is included in the constitution (<span class="math inline">\(\S\)</span> <a href="bgsa.html#bgsa-constitution-officers">3.2.4</a>).</p>
-<div id="mission" class="section level2">
-<h2><span class="header-section-number">3.1</span> Mission</h2>
-<p>We seek to facilitate an environment for students to engage in discussions regarding biostatistics and data science concepts in order to further their knowledge and understanding of the current state of the field.</p>
-</div>
-<div id="bgsa-constitution" class="section level2">
-<h2><span class="header-section-number">3.2</span> Constitution</h2>
-<p>BIOSTATISTICS GRADUATE STUDENT ASSOCIATION CONSTITUTION</p>
-<div id="article-i" class="section level3">
-<h3><span class="header-section-number">3.2.1</span> ARTICLE I</h3>
-<p>NAME OF CLUB</p>
-<p>The name of this club is Biostatistics Graduate Student Association.</p>
-</div>
-<div id="article-ii" class="section level3">
-<h3><span class="header-section-number">3.2.2</span> ARTICLE II</h3>
-<p>PURPOSE OF CLUB</p>
-<p>The purpose of the Biostatistics Graduate Student Association is to facilitate an environment for students to engage in discussions regarding biostatistics and data science concepts in order to further their knowledge and understanding of the current state of the field.</p>
-</div>
-<div id="article-iii" class="section level3">
-<h3><span class="header-section-number">3.2.3</span> ARTICLE III</h3>
-<p>MEMBERSHIP</p>
-<p>The Biostatistics Graduate Student Association encompasses all biostatistics graduate students as well as students with an interest in biostatistics/data science.</p>
-</div>
-<div id="bgsa-constitution-officers" class="section level3">
-<h3><span class="header-section-number">3.2.4</span> ARTICLE IV</h3>
-<p>QUALIFICATION AND ELECTION OF OFFICERS</p>
-<p>Section 1. Officers must be currently enrolled and maintain full-time student status.</p>
-<p>Section 2. The Executive Board will consist of four officer positions. There will be a President, Vice President, Secretary, and Treasurer.</p>
-<p>Section 3. New officers will be nominated and elected by club members at the completion of the academic year.</p>
-</div>
-<div id="article-v" class="section level3">
-<h3><span class="header-section-number">3.2.5</span> ARTICLE V</h3>
-<p>DUTIES OF OFFICERS</p>
-<p>Section 1. President</p>
-<ol style="list-style-type: upper-alpha">
-<li>Introduce all meetings</li>
-<li>Carry out the provisions of the constitution</li>
+<div id="computing" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> Computing Tips</h1>
+<p>Most (read: all) of the students here use macs. It is not required, but it will make your life easier. These are some tips that I feel have made me successful, but there are definitely other ways to do it.</p>
+<div id="downloads" class="section level2">
+<h2><span class="header-section-number">2.1</span> Downloads</h2>
+<p>Here are some things you should get on your computer before you get started.</p>
+<ol style="list-style-type: decimal">
+<li>Install homebrew. Homebrew is essentially a package manager. Paste the command below in your terminal prompt.</li>
 </ol>
-<p>Section 2. Vice President</p>
-<ol style="list-style-type: upper-alpha">
-<li>Assume the duties of the president in his/her absence</li>
-<li>Perform any duties delegated by president</li>
-<li>Actively participate in planning club functions</li>
+<pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre>
+<p>After doing that double check that you’ve got it installed correctly by running</p>
+<pre><code>brew doctor</code></pre>
+<p>If you see <code>Your system is ready to brew</code> you are good to go. You install packages by running <code>brew install package-name</code>, for example <code>brew install git</code> to install git (which you should do RIGHT NOW if you don’t have it yet).</p>
+<p>Some things I recommend getting now that you have brew installed:</p>
+<ul>
+<li>git</li>
+<li>python</li>
+<li>cowsay</li>
+<li>thefuck</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Make your terminal beautiful.</li>
 </ol>
-<p>Section 3. Secretary</p>
-<ol style="list-style-type: upper-alpha">
-<li>Maintain the list of presenters and ensure that information about the presentations is disseminated to all members</li>
-<li>Maintain attendance records.</li>
-</ol>
-<p>Section 4. Treasurer</p>
-<ol style="list-style-type: upper-alpha">
-<li>Maintain the club’s budget</li>
-<li>Pay all charges, collecting all receipts, maintaining a balanced account, and presenting financial information to the Executive Board at least once every semester.</li>
-<li>The Treasurer will perform such duties as are delegated to him or her by the President.</li>
-<li>The Treasurer shall serve as the official liaison between the club and the Student Finance Committee of Vanderbilt University (also known as the Activity Fee Committee).</li>
+<p>I really like Bash-it. Both because I like to say it outloud, and because it makes my terminal look baller. It has sweet plugins (like showing git branches!) and awesome aliases that will save your pretty little fingers.</p>
+<p>To install, type this in terminal,</p>
+<pre><code>git clone https://github.com/revans/bash-it.git ~/.bash_it</code></pre>
+<p>then run,</p>
+<pre><code> ~/.bash_it/install.sh</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>If you don’t already have it, download <a href="https://cran.r-project.org"><code>R</code></a> &amp; if you’d like <a href="https://www.rstudio.com/products/rstudio/#Desktop">RStudio</a></li>
 </ol>
 </div>
-<div id="article-vi" class="section level3">
-<h3><span class="header-section-number">3.2.6</span> ARTICLE VI</h3>
-<p>ADVISOR</p>
-<p>Section 1. The role of the advisor is to: A. Serve as the official staff representative of the club.</p>
+<div id="file-organization" class="section level2">
+<h2><span class="header-section-number">2.2</span> File Organization</h2>
+<p>File organization is super important. And fun! There are a lot of different conventions, I took a while iterating towards one I actually really like.</p>
+<div id="naming-conventions" class="section level3">
+<h3><span class="header-section-number">2.2.1</span> Naming conventions</h3>
+<p>Since we have gone to so much effort to make our terminal look dope, we should be congizent of how to name folders to most easily use it (for example, folder and file names with spaces are a pain because you have to add quotation marks).</p>
+<ul>
+<li>Instead of spaces, uses - between words for folder &amp; filenames</li>
+<li>name folders consistently within projects to allow you to reuse functions/run scripts (more below)</li>
+</ul>
 </div>
-<div id="article-vii" class="section level3">
-<h3><span class="header-section-number">3.2.7</span> ARTICLE VII</h3>
-<p>RESPONSIBILITIES</p>
-<p>Section 1. This club accepts full financial responsibility for all activities that bear its name as official sponsor, and will adhere to college regulations.</p>
+<div id="folders" class="section level3">
+<h3><span class="header-section-number">2.2.2</span> Folders</h3>
+<p>I have 3 main folders:</p>
+<ul>
+<li><code>phd</code></li>
+<li><code>working</code></li>
+<li><code>archive</code></li>
+</ul>
+<p>The <code>phd</code> folder is pretty self explanatory. Within this folder I have:</p>
+<ul>
+<li><code>courses</code></li>
+<li><code>journal-club</code></li>
+<li><code>teaching</code></li>
+</ul>
+<p>The <code>working</code> folder contains projects I am actively working on. This includes RA work, projects I am working on with professors, consulting, and tutoring files. I have these separated because I am acutely aware of making sure these are backed up regularly on github. Within each of these, I have:</p>
+<ul>
+<li><code>code</code></li>
+<li><code>data</code></li>
+<li><code>reports</code></li>
+<li><code>src</code></li>
+</ul>
+<p>The consistent naming convention allows me to have set code to run everything for each different project I am on. The <code>src</code> folder is especially useful for holding functions I have written that I reuse a bazillion times.</p>
+<p>The <code>archive</code> folder contains projects that I have completed. These are backed up every time a new folder is added, but not as regularly as the <code>working</code> folder.</p>
 </div>
-<div id="article-viii" class="section level3">
-<h3><span class="header-section-number">3.2.8</span> ARTICLE VIII</h3>
-<p>AMENDMENTS This Constitution may be amended by a two-thirds vote of active members, which will follow the presentation of a petition containing the proposed amendment.</p>
 </div>
-</div>
-<div id="website" class="section level2">
-<h2><span class="header-section-number">3.3</span> Website</h2>
-<p>You can find more information <a href="https://anchorlink.vanderbilt.edu/organization/Biostatistics">here</a>.</p>
+<div id="statistical-software" class="section level2">
+<h2><span class="header-section-number">2.3</span> Statistical Software</h2>
+<p>In this department, we conduct the majority of our analyses using <code>R</code> &amp; <code>python</code>. We use <code>Stata</code> for one class, so you may want to get that as well. If you are interested in learning SAS, check <a href="https://support.sas.com/edu/schedules.html?ctry=us&amp;id=2588">this</a> out.</p>
 
 </div>
 </div>
@@ -197,8 +191,8 @@ MathJax.Hub.Config({
           </div>
         </div>
       </div>
-<a href="computing.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="conferences.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="bgsa.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
 
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>

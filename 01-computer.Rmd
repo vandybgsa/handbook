@@ -1,0 +1,88 @@
+# Computing Tips {#computing}
+
+Most (read: all) of the students here use macs. It is not required, but it will make your life easier. These are some tips that I feel have made me successful, but there are definitely other ways to do it.
+
+## Downloads
+
+Here are some things you should get on your computer before you get started. 
+
+1. Install homebrew. Homebrew is essentially a package manager. Paste the command below in your terminal prompt.
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+After doing that double check that you've got it installed correctly by running
+```
+brew doctor
+```
+
+If you see `Your system is ready to brew` you are good to go. You install packages by running `brew install package-name`, for example `brew install git` to install git (which you should do RIGHT NOW if you don't have it yet).
+
+Some things I recommend getting now that you have brew installed:
+
+* git
+* python 
+* cowsay
+* thefuck
+
+2. Make your terminal beautiful. 
+
+I really like Bash-it. Both because I like to say it outloud, and because it makes my terminal look baller. It has sweet plugins (like showing git branches!) and awesome aliases that will save your pretty little fingers.
+
+To install, type this in terminal,
+
+```
+git clone https://github.com/revans/bash-it.git ~/.bash_it
+```
+
+then run,
+
+```
+ ~/.bash_it/install.sh
+```
+
+3. If you don't already have it, download [`R`](https://cran.r-project.org) & if you'd like [RStudio](https://www.rstudio.com/products/rstudio/#Desktop)
+
+
+## File Organization
+
+File organization is super important. And fun! There are a lot of different conventions, I took a while iterating towards one I actually really like. 
+
+### Naming conventions
+
+Since we have gone to so much effort to make our terminal look dope, we should be congizent of how to name folders to most easily use it (for example, folder and file names with spaces are a pain because you have to add quotation marks).
+
+* Instead of spaces, uses - between words for folder & filenames
+* name folders consistently within projects to allow you to reuse functions/run scripts (more below)
+
+
+### Folders
+
+I have 3 main folders:
+
+* `phd `
+* `working`
+* `archive`
+
+The `phd` folder is pretty self explanatory. Within this folder I have:
+
+* `courses`
+* `journal-club`
+* `teaching`
+
+The `working` folder contains projects I am actively working on. This includes RA work, projects I am working on with professors, consulting, and tutoring files. I have these separated because I am acutely aware of making sure these are backed up regularly on github. Within each of these, I have:
+
+* `code`
+* `data`
+* `reports`
+* `src`
+
+The consistent naming convention allows me to have set code to run everything for each different project I am on. The `src` folder is especially useful for holding functions I have written that I reuse a bazillion times. 
+
+The `archive` folder contains projects that I have completed. These are backed up every time a new folder is added, but not as regularly as the `working` folder.
+
+
+## Statistical Software
+
+In this department, we conduct the majority of our analyses using `R` & `python`. We use `Stata` for one class, so you may want to get that as well. If you are interested in learning SAS, check [this](https://support.sas.com/edu/schedules.html?ctry=us&id=2588) out.

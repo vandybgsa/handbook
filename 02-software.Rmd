@@ -1,3 +1,0 @@
-# Software {#software}
-
-In this department, we conduct the marjority of our analyses using `R`. 
