@@ -1,0 +1,384 @@
+# Personal Website
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Setup: 
+
+Today, more than ever, a website is like a business card. As a graduate student or academic, by having a nice website you are not only providing a one-stop-shop for all of your necessary information, you are showing that you are savvy enough to know the importance of a high-quality web-presence, and lastly you are illustrating that you have the technical prowess to accomplish this. 
+
+## Prerequisits: 
+
+- Github account 
+    - Don't have one? [Get one!](http://docs.railsbridge.org/installfest/create_a_github_account)
+- Working knowledge of RMarkdown. 
+    - [What is RMarkdown](https://www.r-bloggers.com/r-markdown-and-knitr-tutorial-part-1/) you ask?
+- Temporarily narcissistic mind-frame. 
+
+## Goals: 
+
+By the end of this (hopefully) you will have,
+
+- constructed a simple website with basic information about yourself, 
+- hosted it to github for the world to access, 
+- have enough knowledge to know what to google to make it better. 
+
+Okay, let's get started.
+
+---
+
+## Step 1: Git on with it. 
+
+First things first, let's set up our github repository for hosting this site. 
+
+__"Hosting this site"?__
+
+Whenever you go to a website, e.g. www.Vanderbilt.edu, your computer is sending out a request across the series of tubes known as the internet to a server sitting on top of some cloud somewhere (aka Indiana) that it would like to look at Vanderbilt's website. That server, which is simply another computer, receives the request, then goes into its hard-drive and pulls up the file it has stored for Vanderbilt.com and sends that file back to your computer. So when we say "host your site" we simply mean we need to find a server to put your website's files on that will then deliver those sites to people who want to see them via their web browser of choice. 
+
+This all sounds very complicated and expensive, and it used to be, but now computation is so cheap that companies literally give away server space to people all the time. One example of this is github. Every time you host a repository on github it is stored on a server for access. 
+
+__Create Repo__
+
+Click the plus icon in the upper right corner of your github page and select `New repository`. 
+
+![](figs/create_repo.png)
+
+Set up the repo how you like. In this case I am choosing "initialize repo with a README" so that I can just clone the empty repo to my computer and not bother with `git init`ing. But this is entirely up to you. If you have github you most likely already know how to do this. If you'd like this to be your main website, name this repo `yourgithubname.github.io` for example, Nick's would be `nstrayer.github.io`, Lucy's would be `lucymcgowan.github.io`, etc.
+
+![](figs/repo_info.png)
+
+Now select "Clone or download" and copy the link that pops up. 
+
+![](figs/clone_repo.png)
+
+Now open your terminal, navigate to the area where you want to story your website on your local computer and then type in...
+
+```{bash, eval = FALSE}
+git clone https://github.com/nstrayer/personal_site.git  #<- Replace this with your personal link. 
+```
+
+There are multiple ways to host websites on github. One is to create a new branch called `gh-pages`, the other is to tell github to manually tell github look in the master branch. We will do it the latter way. 
+
+```{bash, eval = FALSE}
+cd personal_site/  #<- Again, replace this with your own folder name
+```
+
+This navigates you into your new repo.
+
+Now we need to let github know that we want it to look for files to host in our master branch. Navigate to your repository and click Settings on the top right.
+
+![](figs/settings.png)
+
+Scroll down to the Github Pages section and click the drop down menu under "Source" and click "master branch". 
+
+![](figs/master.png)
+
+Okay good! Now we have a repo setup that allows us to host websites to it. Now let's actually get a website on it!
+
+---
+
+## Start your Markdowns!
+
+First we do some administrative work to make sure we don't run into roadblocks on the way. Let's update our `rmarkdown` package to make sure we actually have the version that supports RMarkdown websites. 
+
+```{r, eval = FALSE}
+install.packages("rmarkdown", type = "source")
+```
+
+Next we need to create a couple empty files inside your repository. 
+
+```{bash, eval=FALSE}
+touch _site.yml #"YML" file that tells your website how to assemble itself
+touch index.Rmd #Create the main rmd file
+touch about.Rmd #Create an about file
+```
+
+Now open all of these files in RStudio. 
+
+We will start by filling out the `yml` file. `yml` files, while confusing looking at first, are basically a road-map for R to know how to assemble your website. 
+
+
+___site.yml__
+```{r, eval = FALSE}
+name: "nicks-website"
+output_dir: "."
+navbar:
+  title: "Nicks Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
+```
+
+Next we will fill out the bare minimum for the `.Rmd` files. 
+
+__index.Rmd__
+```{r, eval = FALSE}
+---
+title: "Nick's Website"
+---
+
+Hello, World!
+```
+
+__about.Rmd__
+```{r, eval = FALSE}
+---
+title: "About Me"
+---
+
+Why I am awesome. 
+```
+
+_If you got lost at any point during this tutorial, you can download a template of these files from [Lucy's github](https://github.com/LucyMcGowan/Example-RMarkdown-site)._
+
+## Let's build it!
+
+Okay, one last step to actually have a functioning website. We need to actually turn these separate files into a single cohesive website. 
+
+To do this we are going to create one more file. This time just a plain r script. 
+
+```{bash, eval=FALSE}
+touch build_site.R
+```
+
+__build_site.R__
+```{r, eval = FALSE}
+#Set our working directory. 
+#This helps avoid confusion if our working directory is 
+#not our site because of other projects we were 
+#working on at the time. 
+setwd("/Users/Nick/personal_site")
+
+#render your sweet site. 
+rmarkdown::render_site()
+```
+
+As a note, you could skip this step if you had started by creating an RStudio project, however, by doing it this way we are not dependent upon RStudio itself. This could be helpful if in the future you are doing this on a computer without RStudio. It also helps explain the process a little bit more. 
+
+Now if everything has gone according to plan, by running the code in `build_site.R` you should get a bunch of unintelligible output followed by the message : `Output created: index.html`. If so, yay, if not, double check all the stuff above to make sure you followed it exactly. Or more likely I messed up and you should inform me. 
+
+Now we can open it up. Open the repository with `finder` or whatever tool your computer uses to look at files then click on `index.html` and hopefully you should get something that looks like this. 
+
+![](figs/site_result.png)
+
+Sweet. You have now created your own personal website. First let's push it to github and then we can get down to making it good for you. 
+
+
+## Git it hosted
+
+Now we just have to add commit and push everything to github. 
+
+```{bash, eval=FALSE}
+#Let's add all the files to our git staging area
+git add -A #the -A flag tells it git you want everything
+
+#Now we can commit
+git commit -m "My first website commit. The begining of greatness"
+
+#Now we push. Note the addendum to normal pushing
+git push origin master
+```
+
+Now we can navigate to our hosted site! Open your browser of choice and go to `www.<your github name>.github.io/<your sites repo name>`. (E.g. `www.nstrayer.github.io/personal_site`). 
+
+_Note: github has to build stuff on its end so it may take a minute or so for stuff to show up. Just keep impatiently refreshing the page and it will go faster._
+
+Yay, it works. Now we can make it better. 
+
+## Show the world who you are. 
+
+You know how to use RMarkdown. So basically everything that you know how to do you can do here. 
+
+Like let's say you want to make your about page more descriptive. 
+
+__about.Rmd__
+```
+---
+title: "About Me"
+---
+
+- __Name:__ Nick
+- __Ocupation:__ "Student"
+- __Hobbies:__ Learning software development instead of studying for exams. 
+
+Here is a super cool photo of me doing one of my favorite things, yawning. 
+
+![](me_yawning.jpg)
+```
+
+Now just rebuild your site by running `build_site.R` again and open `index.html` again to see if it worked. Ideally now 
+you should be able to click on your about page and see the new results! 
+
+![](figs/new_about.png)
+
+Oh my, that photo looks mighty large. Perhaps we want to make it smaller. We can do that, by adding a special styling file called a `css` file. Back to the terminal...
+
+
+```{bash, eval=FALSE}
+touch style.css
+```
+
+Now open this file up in R and add the following lines: 
+
+__style.css__
+```
+img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+```
+
+This takes every image that appears on our site and makes them 400 pixels wide and centers them. You can change these parameters as you want. There are infinitely many ways to customize the style of a website using css. For more information try googling `how to <do something> with css` and you will most likely find 10,000 ways to do it. 
+
+Now just add the following lines to your `_site.yml` file to apply this css to your site. 
+
+___site.yml__
+```{r, eval = FALSE}
+name: "nicks-website"
+output_dir: "."
+navbar:
+  title: "Nicks Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
+output:
+  html_document:
+    theme: flatly
+    css: style.css
+```
+
+We have done a few things here. One we have created the new `output` field. We have given it a theme (you can choose from any you desire [here](http://bootswatch.com/)) and we have added our custom css file to the whole thing as well. 
+
+Once again, run `build_site.R` to checkout how things have changed. 
+
+![](figs/about_styled.png)
+
+Looking a lot better. 
+
+You are a biostatistician however, so how about we try and show that off. 
+
+## Add Projects/ other links
+
+Let's make a page with links to your cool (open) projects. 
+
+Again we edit the `_site.yml` file... 
+
+___site.yml__
+```{r, eval = FALSE}
+name: "nicks-website"
+output_dir: "."
+navbar:
+  title: "Nicks Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Projects"     ##### the new
+      href: projects.html  ##### stuff
+    - text: "About Me"
+      href: about.html
+output:
+  html_document:
+    theme: flatly
+    css: style.css
+```
+
+Add another file called `projects.Rmd` (you know how to do this at this point). 
+
+__projects.Rmd__
+
+```{r, eval = FALSE}
+---
+title: "Projects"
+---
+
+Sometimes I like to do projects and then post them on the internet for the whole world to benefit!
+here's some examples. 
+
+## [Data Visualization in R](http://nickstrayer.me/visualization_in_r/)
+
+- An RMarkdown presentation on the common mistakes made in visualization and how to fix them.
+- Includes a github repo for access to all the code.
+- Look at how high quality my work is, hire and or collaborate with me. 
+
+## [Statistical Plots](http://bl.ocks.org/nstrayer/37a503dd1db369a8f7e3ce21757e19ee)
+
+- Interactive plots of things
+- I can code!
+```
+
+Again, build the site with your build script and then take a look at what you have!
+
+![](figs/projects_page.png)
+
+## So what now?
+
+Well first off you add, commit, and push all your new fancy changes to github. 
+
+Now you have a website that is better than 95% of people in your situation. What do you do now? 
+
+You never stop making it better! Every new project you get you do you post it to your projects page, get sick new head shots in? Add that to your about page. Customize it. For instance you may want to add a splash of personalization to your main page. Perhaps a nice chart? Ever made a plot in an RMarkdown before? You know how to do it then. 
+
+
+__index.Rmd__
+```
+---
+title: "Nick's Website"
+---
+
+__Look at how cool this plot is!__
+
+$$Y = \alpha \cdot \sin(X), \alpha = 0,0.1,0.2,...,3$$
+
+
+#remove backslashes before ticks to get this to work. 
+\`\`\`{r, echo = FALSE, fig.align='center'}
+library(tidyverse)
+cool_function <- function(x, alpha) return(sin(alpha*x))
+xs <- seq(0, pi*1.5, 0.005)
+ys <- cool_function(xs, 1)
+results <- data_frame(xs, ys, alpha = "1")
+for(alpha in seq(0,3, 0.1)){
+  results <- results %>% 
+    bind_rows(data_frame(
+      xs, 
+      ys = cool_function(xs, alpha),
+      alpha = as.character(alpha)
+    ))
+}
+
+ggplot(results, aes(x = xs, y = ys, color = alpha)) + 
+  geom_line() + 
+  theme_bw() + 
+  theme(legend.position="none")
+\`\`\`
+```
+
+## Afterward
+
+__Learn More__
+
+If you want to learn more about what's possible using RMarkdown sites (and there is a lot), a good starting place is [this document](http://rmarkdown.rstudio.com/rmarkdown_websites.html) hosted by RStudio. This is where I got almost everything for this. 
+
+__Style__
+
+This is rather personal, but as for the style: keep it as simple as possible. The simpler your website the less overwhelming it is to viewers. Try and convey everything that you need to and nothing more. That being said, personal flourishes do sometimes help set you apart from others. It's a balancing act. 
+
+__Questions__
+
+If this tutorial was confusing or you don't know what words to use to search for new stuff feel free to contact us. 
+
+- Nick
+    - n.strayer at Vanderbilt.edu
+    - [twitter](https://twitter.com/NicholasStrayer)
+    - [github](https://github.com/nstrayer)
+- Lucy
+    - ld.mcgowan at Vanderbilt.edu
+    - [twitter](https://twitter.com/LucyStats)
+    - [github](https://github.com/LucyMcGowan)
+
