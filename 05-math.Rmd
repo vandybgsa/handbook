@@ -3,3 +3,9 @@
 ### Taylor series
 
 $e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}$
+
+### Gamma function
+
+$\Gamma(\alpha)=(\alpha-1)\Gamma(\alpha-1)$
+
+Work in progress
