@@ -39,8 +39,8 @@ MathJax.Hub.Config({
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="index.html">
-<link rel="next" href="bgsa.html">
+<link rel="prev" href="personal-website.html">
+
 
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -170,93 +170,11 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="computing" class="section level1">
-<h1><span class="header-section-number">Chapter 2</span> Computing Tips</h1>
-<p>Most (read: all) of the students here use macs. It is not required, but it will make your life easier. These are some tips that I feel have made me successful, but there are definitely other ways to do it.</p>
-<div id="downloads" class="section level2">
-<h2><span class="header-section-number">2.1</span> Downloads</h2>
-<p>Here are some things you should get on your computer before you get started.</p>
-<div id="homebrew" class="section level3">
-<h3><span class="header-section-number">2.1.1</span> Homebrew</h3>
-<p>Install homebrew. Homebrew is essentially a package manager. Paste the command below in your terminal prompt.</p>
-<pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre>
-<p>After doing that double check that you’ve got it installed correctly by running</p>
-<pre><code>brew doctor</code></pre>
-<p>If you see <code>Your system is ready to brew</code> you are good to go. You install packages by running <code>brew install package-name</code>, for example <code>brew install git</code> to install git (which you should do RIGHT NOW if you don’t have it yet).</p>
-<p>Some things I recommend getting now that you have brew installed:</p>
-<ul>
-<li>git</li>
-<li>python</li>
-<li>cowsay</li>
-<li>thefuck</li>
-</ul>
-</div>
-<div id="bash-it" class="section level3">
-<h3><span class="header-section-number">2.1.2</span> Bash-it</h3>
-<p>Make your terminal beautiful.</p>
-<p>I really like Bash-it. Both because I like to say it outloud, and because it makes my terminal look baller. It has sweet plugins (like showing git branches!) and awesome aliases that will save your pretty little fingers.</p>
-<p>To install, type this in terminal,</p>
-<pre><code>git clone https://github.com/revans/bash-it.git ~/.bash_it</code></pre>
-<p>then run,</p>
-<pre><code> ~/.bash_it/install.sh</code></pre>
-<p>I use a slightly edited <code>bobby</code> theme. <a href="https://github.com/Bash-it/bash-it/wiki/Themes">Here</a> are some other themes to choose from.</p>
-</div>
-<div id="r" class="section level3">
-<h3><span class="header-section-number">2.1.3</span> R</h3>
-<p>If you don’t already have it, download <a href="https://cran.r-project.org"><code>R</code></a> &amp; if you’d like <a href="https://www.rstudio.com/products/rstudio/#Desktop">RStudio</a></p>
-</div>
-</div>
-<div id="file-organization" class="section level2">
-<h2><span class="header-section-number">2.2</span> File Organization</h2>
-<p>File organization is super important. And fun! There are a lot of different conventions, I took a while iterating towards one I actually really like.</p>
-<div id="naming-conventions" class="section level3">
-<h3><span class="header-section-number">2.2.1</span> Naming conventions</h3>
-<p>Since we have gone to so much effort to make our terminal look dope, we should be congizent of how to name folders to most easily use it (for example, folder and file names with spaces are a pain because you have to add quotation marks).</p>
-<ul>
-<li>Instead of spaces, uses - between words for folder &amp; filenames</li>
-<li>name folders consistently within projects to allow you to reuse functions/run scripts (more below)</li>
-</ul>
-</div>
-<div id="folders" class="section level3">
-<h3><span class="header-section-number">2.2.2</span> Folders</h3>
-<p>I have 3 main folders:</p>
-<ul>
-<li><code>phd</code></li>
-<li><code>working</code></li>
-<li><code>archive</code></li>
-</ul>
-<p>The <code>phd</code> folder is pretty self explanatory. Within this folder I have:</p>
-<ul>
-<li><code>courses</code></li>
-<li><code>journal-club</code></li>
-<li><code>teaching</code></li>
-</ul>
-<p>The <code>working</code> folder contains projects I am actively working on. This includes RA work, projects I am working on with professors, consulting, and tutoring files. I have these separated because I am acutely aware of making sure these are backed up regularly on github. Within each of these, I have:</p>
-<ul>
-<li><code>code</code></li>
-<li><code>data</code></li>
-<li><code>reports</code></li>
-<li><code>src</code></li>
-</ul>
-<p>The consistent naming convention allows me to have set code to run everything for each different project I am on. The <code>src</code> folder is especially useful for holding functions I have written that I reuse a bazillion times.</p>
-<p>The <code>archive</code> folder contains projects that I have completed. These are backed up every time a new folder is added, but not as regularly as the <code>working</code> folder.</p>
-</div>
-</div>
-<div id="github" class="section level2">
-<h2><span class="header-section-number">2.3</span> Github</h2>
-<p>If you do not already have one, set up a <a href="https://github.com">github account</a> – make sure that you get an <a href="https://education.github.com/">education discount</a> so you can set up private repos.</p>
-<div class="figure">
-<img src="http://imgs.xkcd.com/comics/git.png" />
-
-</div>
-<ul>
-<li>Jenny Bryan has an awesome course on <a href="http://happygitwithr.com/">Github for the useR</a>.</li>
-<li>For some <a href="http://www.commitlogsfromlastnight.com">giggles</a></li>
-</ul>
-</div>
-<div id="statistical-software" class="section level2">
-<h2><span class="header-section-number">2.4</span> Statistical Software</h2>
-<p>In this department, we conduct the majority of our analyses using <code>R</code> &amp; <code>python</code>. We use <code>Stata</code> for one class, so you may want to get that as well. If you are interested in learning SAS, check <a href="https://support.sas.com/edu/schedules.html?ctry=us&amp;id=2588">this</a> out.</p>
+<div id="math" class="section level1">
+<h1><span class="header-section-number">Chapter 6</span> Useful Math Facts</h1>
+<div id="taylor-series" class="section level3">
+<h3><span class="header-section-number">6.0.1</span> Taylor series</h3>
+<p><span class="math inline">\(e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}\)</span></p>
 
 </div>
 </div>
@@ -265,8 +183,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="bgsa.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
+<a href="personal-website.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
 
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
