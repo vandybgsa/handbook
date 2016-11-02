@@ -1,11 +1,70 @@
 # Useful Math Facts {#math}
 
+## Exponents and Logarithms
+for positive constants $a$ and $b$:
+
+$a^0 = 1$
+
+$a^{-n}=\frac{1}{a^n}$ for positive integer $n$
+
+$a^{x+y}=a^x a^y$
+
+$a^{x-y}=\frac{a^x}{a^y}$
+
+$(a^x)^y=a^{xy}$
+
+$(ab)^x=a^xb^x$
+
+
+$\log_a(x) = y$ implies $a^{y} = x$
+
+If you're working in statistics it's usually a safe bet that $\log(x)$ means $\log_e(x)$ not $\log_{10}(x)$.
+
+$\log(1) = 0$
+
+$\log(e) = 1$
+
+$\log(xy)=\log(x) + \log(y)$
+
+$\log(x/y)=\log(x)-\log(y)$
+
+## Sequences and Series
+
+### Monotonicity
+
+A sequence of numbers $\{x_1,x_2,\ldots\}$ is *monotone increasing* if $x_n \le x_{n+1}$ for all $n$. If $x_n \ge x_{n+1}$ for all $n$, the sequence is *monotone decreasing*
+
+### Geometric series
+
+$\sum\limits_{k=0}^{n} a^k =\frac{1- a^{n+1}}{1-a}$
+
+for $|a|<1$ $\sum\limits_{k=0}^{\infty} a^k =\frac{1}{1-a}$
+
 ### Taylor series
 
-$e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}$
+$e^x=\sum\limits_{n=0}^{\infty}\frac{x^n}{n!}$
+
+### Binomial Theorem
+
+$(x+y)^n = \sum\limits_{k=0}^{n}\binom{n}{k}x^{k}y^{n-k}$
+
+## Calculus - Derivatives
+
+### Maxima and Minima
+
+## Calculus - Integrals
+
+## Miscellaneous
 
 ### Gamma function
 
+The Gamma function is defined as $\Gamma(\alpha) =\int\limits_{0}^{\infty}x^{\alpha-1}e^{-x}\, dx$ for $\alpha > 0$
+
+$\Gamma(1)=1$
+
 $\Gamma(\alpha)=(\alpha-1)\Gamma(\alpha-1)$
 
-Work in progress
+$\alpha\Gamma(\alpha)=\Gamma(\alpha+1)$
+
+$\Gamma(n)=(n-1)!$ for integer $n>0$
+
