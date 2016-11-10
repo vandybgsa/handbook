@@ -97,6 +97,45 @@ If you do not already have one, set up a [github account](https://github.com) --
 * Jenny Bryan has an awesome course on [Github for the useR](http://happygitwithr.com/). 
 * For some [giggles](http://www.commitlogsfromlastnight.com)
 
+## Bash Profile
+
+Now that we've downloaded a bunch of nifty programs using `brew` and we have `github` up & running, you can save some typing time in terminal by adding aliases (shortcuts) to your `.bash_profile`. 
+
+1. Open Terminal and type `open -e ~/.bash_profile` (if you installed bash-it this will work, if you do not have a `.bash_profile` in your home directory yet, you can create one using your favorite text editor, for example `nano .bash_profile`)
+2. Add some aliases like this:
+`alias alias_name = "terminal command"`
+
+For example: 
+
+```
+# Edit profile
+alias edit_profile="open -e ~/.bash_profile"
+```
+
+Here are some we $\heartsuit$:
+
+```
+# Set RStudio alias
+alias RS="open -a RStudio"
+
+# Set reload profile alias
+alias reload_profile=". ~/.bash_profile"
+
+# Edit profile
+alias edit_profile="open -e ~/.bash_profile"
+
+#Lazy git - will add commit and push with one command
+
+#Set our default branch to push to as the one we are in
+git config --global push.default current
+
+ function lgit() {
+     git add -A
+     git commit -m "$1"
+     git push
+}
+```
+
 ## Statistical Software
 
 In this department, we conduct the majority of our analyses using `R` & `python`. We use `Stata` for one class, so you may want to get that as well. If you are interested in learning SAS, check [this](https://support.sas.com/edu/schedules.html?ctry=us&id=2588) out.

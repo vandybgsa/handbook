@@ -26,7 +26,7 @@
 <meta name="author" content="Lucy D’Agostino McGowan, Nathan James, Nick Strayer">
 
   
-<meta name="date" content="2016-11-01">
+<meta name="date" content="2016-11-10">
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -118,7 +118,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="2.2.2" data-path="computing.html"><a href="computing.html#folders"><i class="fa fa-check"></i><b>2.2.2</b> Folders</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="computing.html"><a href="computing.html#github"><i class="fa fa-check"></i><b>2.3</b> Github</a></li>
-<li class="chapter" data-level="2.4" data-path="computing.html"><a href="computing.html#statistical-software"><i class="fa fa-check"></i><b>2.4</b> Statistical Software</a></li>
+<li class="chapter" data-level="2.4" data-path="computing.html"><a href="computing.html#bash-profile"><i class="fa fa-check"></i><b>2.4</b> Bash Profile</a></li>
+<li class="chapter" data-level="2.5" data-path="computing.html"><a href="computing.html#statistical-software"><i class="fa fa-check"></i><b>2.5</b> Statistical Software</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="bgsa.html"><a href="bgsa.html"><i class="fa fa-check"></i><b>3</b> Biostatistics Graduate Student Association</a><ul>
 <li class="chapter" data-level="3.1" data-path="bgsa.html"><a href="bgsa.html#mission"><i class="fa fa-check"></i><b>3.1</b> Mission</a></li>
@@ -151,8 +152,20 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="5.11" data-path="personal-website.html"><a href="personal-website.html#afterward"><i class="fa fa-check"></i><b>5.11</b> Afterward</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="math.html"><a href="math.html"><i class="fa fa-check"></i><b>6</b> Useful Math Facts</a><ul>
-<li class="chapter" data-level="6.0.1" data-path="math.html"><a href="math.html#taylor-series"><i class="fa fa-check"></i><b>6.0.1</b> Taylor series</a></li>
-<li class="chapter" data-level="6.0.2" data-path="math.html"><a href="math.html#gamma-function"><i class="fa fa-check"></i><b>6.0.2</b> Gamma function</a></li>
+<li class="chapter" data-level="6.1" data-path="math.html"><a href="math.html#exponents-and-logarithms"><i class="fa fa-check"></i><b>6.1</b> Exponents and Logarithms</a></li>
+<li class="chapter" data-level="6.2" data-path="math.html"><a href="math.html#sequences-and-series"><i class="fa fa-check"></i><b>6.2</b> Sequences and Series</a><ul>
+<li class="chapter" data-level="6.2.1" data-path="math.html"><a href="math.html#monotonicity"><i class="fa fa-check"></i><b>6.2.1</b> Monotonicity</a></li>
+<li class="chapter" data-level="6.2.2" data-path="math.html"><a href="math.html#geometric-series"><i class="fa fa-check"></i><b>6.2.2</b> Geometric series</a></li>
+<li class="chapter" data-level="6.2.3" data-path="math.html"><a href="math.html#taylor-series"><i class="fa fa-check"></i><b>6.2.3</b> Taylor series</a></li>
+<li class="chapter" data-level="6.2.4" data-path="math.html"><a href="math.html#binomial-theorem"><i class="fa fa-check"></i><b>6.2.4</b> Binomial Theorem</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="math.html"><a href="math.html#calculus---derivatives"><i class="fa fa-check"></i><b>6.3</b> Calculus - Derivatives</a><ul>
+<li class="chapter" data-level="6.3.1" data-path="math.html"><a href="math.html#maxima-and-minima"><i class="fa fa-check"></i><b>6.3.1</b> Maxima and Minima</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="math.html"><a href="math.html#calculus---integrals"><i class="fa fa-check"></i><b>6.4</b> Calculus - Integrals</a></li>
+<li class="chapter" data-level="6.5" data-path="math.html"><a href="math.html#miscellaneous"><i class="fa fa-check"></i><b>6.5</b> Miscellaneous</a><ul>
+<li class="chapter" data-level="6.5.1" data-path="math.html"><a href="math.html#gamma-function"><i class="fa fa-check"></i><b>6.5.1</b> Gamma function</a></li>
+</ul></li>
 </ul></li>
 </ul>
 
@@ -255,8 +268,39 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>For some <a href="http://www.commitlogsfromlastnight.com">giggles</a></li>
 </ul>
 </div>
+<div id="bash-profile" class="section level2">
+<h2><span class="header-section-number">2.4</span> Bash Profile</h2>
+<p>Now that we’ve downloaded a bunch of nifty programs using <code>brew</code> and we have <code>github</code> up &amp; running, you can save some typing time in terminal by adding aliases (shortcuts) to your <code>.bash_profile</code>.</p>
+<ol style="list-style-type: decimal">
+<li>Open Terminal and type <code>open -e ~/.bash_profile</code> (if you installed bash-it this will work, if you do not have a <code>.bash_profile</code> in your home directory yet, you can create one using your favorite text editor, for example <code>nano .bash_profile</code>)</li>
+<li>Add some aliases like this: <code>alias alias_name = &quot;terminal command&quot;</code></li>
+</ol>
+<p>For example:</p>
+<pre><code># Edit profile
+alias edit_profile=&quot;open -e ~/.bash_profile&quot;</code></pre>
+<p>Here are some we <span class="math inline">\(\heartsuit\)</span>:</p>
+<pre><code># Set RStudio alias
+alias RS=&quot;open -a RStudio&quot;
+
+# Set reload profile alias
+alias reload_profile=&quot;. ~/.bash_profile&quot;
+
+# Edit profile
+alias edit_profile=&quot;open -e ~/.bash_profile&quot;
+
+#Lazy git - will add commit and push with one command
+
+#Set our default branch to push to as the one we are in
+git config --global push.default current
+
+ function lgit() {
+     git add -A
+     git commit -m &quot;$1&quot;
+     git push
+}</code></pre>
+</div>
 <div id="statistical-software" class="section level2">
-<h2><span class="header-section-number">2.4</span> Statistical Software</h2>
+<h2><span class="header-section-number">2.5</span> Statistical Software</h2>
 <p>In this department, we conduct the majority of our analyses using <code>R</code> &amp; <code>python</code>. We use <code>Stata</code> for one class, so you may want to get that as well. If you are interested in learning SAS, check <a href="https://support.sas.com/edu/schedules.html?ctry=us&amp;id=2588">this</a> out.</p>
 
 </div>
