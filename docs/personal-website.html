@@ -8,7 +8,7 @@
   <title>Vanderbilt Biostatistics Graduate Student Handbook</title>
   <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
   <meta name="description" content="This is a handbook written by students for students in the Vanderbilt Biostatistics program">
-  <meta name="generator" content="bookdown 0.1.16 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.3 and GitBook 2.6.7">
 
   <meta property="og:title" content="Vanderbilt Biostatistics Graduate Student Handbook" />
   <meta property="og:type" content="book" />
@@ -23,16 +23,10 @@
   <meta name="twitter:description" content="This is a handbook written by students for students in the Vanderbilt Biostatistics program" />
   
 
-<meta name="author" content="Lucy D’Agostino McGowan, Nathan James, Nick Strayer">
+<meta name="author" content="Lucy D’Agostino McGowan, Nathan James, Nick Strayer, Sandya Lakkur">
 
-  
-<meta name="date" content="2016-11-10">
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
+<meta name="date" content="2017-01-18">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -135,9 +129,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul></li>
 <li class="chapter" data-level="3.3" data-path="bgsa.html"><a href="bgsa.html#website"><i class="fa fa-check"></i><b>3.3</b> Website</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="conferences.html"><a href="conferences.html"><i class="fa fa-check"></i><b>4</b> Conferences</a><ul>
-<li class="chapter" data-level="4.1" data-path="conferences.html"><a href="conferences.html#scholarships"><i class="fa fa-check"></i><b>4.1</b> Scholarships</a></li>
-</ul></li>
+<li class="chapter" data-level="4" data-path="conferences.html"><a href="conferences.html"><i class="fa fa-check"></i><b>4</b> Conferences</a></li>
 <li class="chapter" data-level="5" data-path="personal-website.html"><a href="personal-website.html"><i class="fa fa-check"></i><b>5</b> Personal Website</a><ul>
 <li class="chapter" data-level="5.1" data-path="personal-website.html"><a href="personal-website.html#setup"><i class="fa fa-check"></i><b>5.1</b> Setup:</a></li>
 <li class="chapter" data-level="5.2" data-path="personal-website.html"><a href="personal-website.html#prerequisits"><i class="fa fa-check"></i><b>5.2</b> Prerequisits:</a></li>
@@ -224,17 +216,17 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p><strong>Create Repo</strong></p>
 <p>Click the plus icon in the upper right corner of your github page and select <code>New repository</code>.</p>
 <div class="figure">
-<img src="figs/create_repo.png" />
+<img src="figs/create_repo.png" alt="" />
 
 </div>
 <p>Set up the repo how you like. In this case I am choosing “initialize repo with a README” so that I can just clone the empty repo to my computer and not bother with <code>git init</code>ing. But this is entirely up to you. If you have github you most likely already know how to do this. If you’d like this to be your main website, name this repo <code>yourgithubname.github.io</code> for example, Nick’s would be <code>nstrayer.github.io</code>, Lucy’s would be <code>lucymcgowan.github.io</code>, etc.</p>
 <div class="figure">
-<img src="figs/repo_info.png" />
+<img src="figs/repo_info.png" alt="" />
 
 </div>
 <p>Now select “Clone or download” and copy the link that pops up.</p>
 <div class="figure">
-<img src="figs/clone_repo.png" />
+<img src="figs/clone_repo.png" alt="" />
 
 </div>
 <p>Now open your terminal, navigate to the area where you want to story your website on your local computer and then type in…</p>
@@ -244,12 +236,12 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>This navigates you into your new repo.</p>
 <p>Now we need to let github know that we want it to look for files to host in our master branch. Navigate to your repository and click Settings on the top right.</p>
 <div class="figure">
-<img src="figs/settings.png" />
+<img src="figs/settings.png" alt="" />
 
 </div>
 <p>Scroll down to the Github Pages section and click the drop down menu under “Source” and click “master branch”.</p>
 <div class="figure">
-<img src="figs/master.png" />
+<img src="figs/master.png" alt="" />
 
 </div>
 <p>Okay good! Now we have a repo setup that allows us to host websites to it. Now let’s actually get a website on it!</p>
@@ -308,7 +300,7 @@ rmarkdown::<span class="kw">render_site</span>()</code></pre></div>
 <p>Now if everything has gone according to plan, by running the code in <code>build_site.R</code> you should get a bunch of unintelligible output followed by the message : <code>Output created: index.html</code>. If so, yay, if not, double check all the stuff above to make sure you followed it exactly. Or more likely I messed up and you should inform me.</p>
 <p>Now we can open it up. Open the repository with <code>finder</code> or whatever tool your computer uses to look at files then click on <code>index.html</code> and hopefully you should get something that looks like this.</p>
 <div class="figure">
-<img src="figs/site_result.png" />
+<img src="figs/site_result.png" alt="" />
 
 </div>
 <p>Sweet. You have now created your own personal website. First let’s push it to github and then we can get down to making it good for you.</p>
@@ -346,7 +338,7 @@ Here is a super cool photo of me doing one of my favorite things, yawning.
 ![](me_yawning.jpg)</code></pre>
 <p>Now just rebuild your site by running <code>build_site.R</code> again and open <code>index.html</code> again to see if it worked. Ideally now you should be able to click on your about page and see the new results!</p>
 <div class="figure">
-<img src="figs/new_about.png" />
+<img src="figs/new_about.png" alt="" />
 
 </div>
 <p>Oh my, that photo looks mighty large. Perhaps we want to make it smaller. We can do that, by adding a special styling file called a <code>css</code> file. Back to the terminal…</p>
@@ -377,7 +369,7 @@ output:
 <p>We have done a few things here. One we have created the new <code>output</code> field. We have given it a theme (you can choose from any you desire <a href="http://bootswatch.com/">here</a>) and we have added our custom css file to the whole thing as well.</p>
 <p>Once again, run <code>build_site.R</code> to checkout how things have changed.</p>
 <div class="figure">
-<img src="figs/about_styled.png" />
+<img src="figs/about_styled.png" alt="" />
 
 </div>
 <p>Looking a lot better.</p>
@@ -424,7 +416,7 @@ here<span class="st">&#39;s some examples. </span>
 <span class="st">- I can code!</span></code></pre></div>
 <p>Again, build the site with your build script and then take a look at what you have!</p>
 <div class="figure">
-<img src="figs/projects_page.png" />
+<img src="figs/projects_page.png" alt="" />
 
 </div>
 </div>
@@ -509,6 +501,7 @@ ggplot(results, aes(x = xs, y = ys, color = alpha)) +
 require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
+"github": false,
 "facebook": true,
 "twitter": true,
 "google": false,
