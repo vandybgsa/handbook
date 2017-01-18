@@ -1,6 +1,6 @@
 --- 
 title: "Vanderbilt Biostatistics Graduate Student Handbook"
-author: "Lucy D'Agostino McGowan,  Nathan James, Nick Strayer"
+author: "Lucy D'Agostino McGowan,  Nathan James, Nick Strayer, Jonathan Chipman"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
