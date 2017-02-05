@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Today, more than ever, a website is like a business card. As a graduate student or academic, by having a nice website you are not only providing a one-stop-shop for all of your necessary information, you are showing that you are savvy enough to know the importance of a high-quality web-presence, and lastly you are illustrating that you have the technical prowess to accomplish this. 
 
-## Prerequisits: 
+## Prerequisites: 
 
 - Github account 
     - Don't have one? [Get one!](http://docs.railsbridge.org/installfest/create_a_github_account)
