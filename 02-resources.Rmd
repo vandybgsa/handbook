@@ -1,10 +1,10 @@
 # Resources {#resources}
 
-Here are a few miscelaneous links to resources that may save you some time. 
+Here are a few miscellaneous links to resources that may save you some time. 
 
 ## Books
 
-You can find a large portion of the textbooks required for classes online. Since it doesn't make sense for people to repeat the same search every year for textbooks we have assembled a dropbox folder containing all the currently known books. If you find a new book make sure to slack it to Nick and he can add it. 
+You can find a large portion of the textbooks required for classes online. Since it doesn't make sense for people to repeat the same search every year for textbooks we have assembled a dropbox folder containing all the currently known books. If you find a new book make sure to [Slack](https://biostats.slack.com) it to Nick and he can add it. 
 
 [All of the books ever](https://www.dropbox.com/sh/mea9q94nletfsdy/AACD5QC_-RZKfBakR6qSXVrSa?dl=0)
 
