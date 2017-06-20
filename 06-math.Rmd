@@ -50,9 +50,47 @@ $(x+y)^n = \sum\limits_{k=0}^{n}\binom{n}{k}x^{k}y^{n-k}$
 
 ## Calculus - Derivatives
 
+$f(x)=c \;(\text{constant}) \qquad f'(x)=0$
+
+$f(x) = x^{r},\, r \in \mathbb{R} \qquad f'(x) = rx^{r-1}$ (Power Rule)
+
+$f(x) = e^x \qquad f'(x) = e^x$
+
+$f(x)=\log(x) \qquad f'(x) =\frac{1}{x}$
+
+$f(x)=g(x)\pm h(x) \qquad f'(x)=g'(x) \pm h'(x)$
+
+$f(x)=g(x)h(x) \qquad f'(x)= g(x)h'(x)+g'(x)h(x)$  (Product Rule)
+
+$f(x) =\frac{g(x)}{h(x)} \qquad f'(x)=\frac{g'(x)h(x)-g(x)h'(x)}{[h(x)]^{2}}\,$  (Quotient Rule)
+
+$f(x)=g \circ h(x) = g(h(x)) \qquad f'(x) = g'(h(x))h'(x)$  (Chain Rule)
+
 ### Maxima and Minima
 
+$f(x)$ has a *minimum* at $c$ if $f'(c)=0$ and $f''(c)>0$
+
+$f(x)$ has a *maximum* at $c$ if $f'(c)=0$ and $f''(c)<0$
+
 ## Calculus - Integrals
+
+$f(x) = c \qquad \int f(x)\,dx = cx$
+
+$f(x) = x^r \qquad \int f(x)\,dx = \frac{x^{r+1}}{r+1},\,r \ne -1$
+
+$f(x) = \frac{1}{x} \qquad \int f(x)\,dx = \log(x)$
+
+$f(x) = e^x \qquad \int f(x)\,dx = e^x$
+
+$f(x) = cg(x) \qquad \int f(x)\,dx = c \int g(x)\, dx$
+
+$f(x) = g(x)\pm h(x) \qquad \int f(x)\,dx = \int g(x)\, dx \pm \int h(x)\, dx$
+
+### Integration by Parts
+
+$\int_{a}^{b} f(x)g'(x)\, dx = f(x) g(x)|_{a}^{b} - \int_{a}^{b} f'(x)g(x)\, dx$
+
+Equivalently, let $u=f(x)$ and $dv= g'(x)\, dx$ then $\int u\, dv = uv -\int v du$
 
 ## Miscellaneous
 
@@ -67,4 +105,12 @@ $\Gamma(\alpha)=(\alpha-1)\Gamma(\alpha-1)$
 $\alpha\Gamma(\alpha)=\Gamma(\alpha+1)$
 
 $\Gamma(n)=(n-1)!$ for integer $n>0$
+
+### Beta Function
+
+The Beta function is defined as $B(\alpha, \beta)=\int_{0}^{1}x^{\alpha-1}(1-x)^{\beta-1}\,dx$ for $\alpha, \beta > 0$
+
+$B(\alpha, \beta) = B(\beta, \alpha)$
+ 
+$B(\alpha, \beta) = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha + \beta)}$ 
 
