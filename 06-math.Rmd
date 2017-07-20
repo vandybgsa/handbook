@@ -2,8 +2,8 @@
 
 ## Exponents and Logarithms
 for positive constants $a$ and $b$: 
-
-$a^0 = 1$
+ 
+$a^0 = 1$ 
 
 $a^{-n}=\frac{1}{a^n}$ for positive integer $n$
 
