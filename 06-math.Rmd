@@ -1,7 +1,7 @@
 # Useful Math Facts {#math}
 
 ## Exponents and Logarithms
-for positive constants $a$ and $b$:
+for positive constants $a$ and $b$: 
 
 $a^0 = 1$
 
