@@ -124,7 +124,10 @@ alias reload_profile=". ~/.bash_profile"
 # Edit profile
 alias edit_profile="open -e ~/.bash_profile"
 
-#Lazy git - will add commit and push with one command
+#Lazy git - will add, commit, and push with one command
+# NOTE: each command (add, commit, push) in this function is progressively harder 
+#  to undo/fix if you muck something up (e.g., adding PHI to a public repo!) 
+#  so make sure you understand what you're doing
 
 #Set our default branch to push to as the one we are in
 git config --global push.default current
