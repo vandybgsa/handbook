@@ -4,7 +4,7 @@ Here is a (brief) list of conferences that we like to attend:
 
 conference | time of year | abstracts due | student scholarships
 -----------|--------------|---------------|----------------------
-ENAR       | March        | early/mid October | available
+ENAR       | March        | early/mid October | [available](https://www.enar.org/meetings/StudentPaperAwards/)
 JSM        | 1st week of August | student awards: Nov/Dec | [available](https://www.amstat.org/asa/education/Student-Paper-Competition-Travel-Award-to-Attend-the-Joint-Statistical-Meetings.aspx)
 WSDS       | late October | -- | available
 useR       | June/July    | February | available
@@ -14,8 +14,11 @@ SAS Global Forum | April | September/October | [available](https://support.sas.c
 
 Students in our department have had success applying to the following funding sources
 
-* We have had two 1st place successes for the Government Statistics Section [Data Challenge](http://community.amstat.org/governmentstatisticssection/new-item2/new-item). 
-    * Chat with [Alice](http://www.vanderbilt.edu/biostatistics/graduate/students/Alice-toll/), [Ryan](http://www.vanderbilt.edu/biostatistics/graduate/students/Ryan-Jarrett/), or [Lucy](http://www.vanderbilt.edu/biostatistics/graduate/students/lucy-dagostino-mcgowan/) for more information.
+* We have had three 1st place successes for the Government Statistics Section [Data Challenge](http://community.amstat.org/governmentstatisticssection/awards/competitions). 
+    * Chat with [Alice](http://www.vanderbilt.edu/biostatistics/graduate/students/Alice-toll/), [Ryan](http://www.vanderbilt.edu/biostatistics/graduate/students/Ryan-Jarrett/), [Lucy](http://www.vanderbilt.edu/biostatistics/graduate/students/lucy-dagostino-mcgowan/),
+[Nathan](http://www.vanderbilt.edu/biostatistics/graduate/students/nathan-james/), or
+[Jacquelyn](http://www.vanderbilt.edu/biostatistics/graduate/students/jacquelyn-neal/)
+    for more information.
 * Women in Statistics and Data Science Travel Award. 
     * Chat with [Alli](http://www.vanderbilt.edu/biostatistics/graduate/students/allison-hainline/), [Jacquelyn](http://www.vanderbilt.edu/biostatistics/graduate/students/jacquelyn-neal/), [Hannah](http://www.vanderbilt.edu/biostatistics/graduate/students/Hannah%20Weeks/), or [Lucy](http://www.vanderbilt.edu/biostatistics/graduate/students/lucy-dagostino-mcgowan/) for more information.
 * useR Student Scholarship
