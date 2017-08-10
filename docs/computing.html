@@ -25,7 +25,7 @@
 <meta name="author" content="Lucy D’Agostino McGowan, Nathan James, Nick Strayer, Sandya Lakkur">
 
 
-<meta name="date" content="2017-07-19">
+<meta name="date" content="2017-08-10">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -287,7 +287,10 @@ alias reload_profile=&quot;. ~/.bash_profile&quot;
 # Edit profile
 alias edit_profile=&quot;open -e ~/.bash_profile&quot;
 
-#Lazy git - will add commit and push with one command
+#Lazy git - will add, commit, and push with one command
+# NOTE: each command (add, commit, push) in this function is progressively harder 
+#  to undo/fix if you muck something up (e.g., adding PHI to a public repo!) 
+#  so make sure you understand what you&#39;re doing
 
 #Set our default branch to push to as the one we are in
 git config --global push.default current
