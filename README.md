@@ -4,7 +4,7 @@ Vanderbilt Biostatistics Grad Student Handbook
 ## add chapter
 To add a chapter create a file called chapternumber_chaptername.Rmd (for example 01_Introduction.Rmd). 
 
-##editing a chapter
+## editing a chapter
 1) Before you begin, make sure you: fork the repo, click "Clone or Download" button and copy the link  
 2) Open R Studio and Click File< New Project<Version Control<Git  
 3) Copy the link into the top box, name the copied repository whatever you would like, and select a location for the repository to be stored  
