@@ -1,6 +1,8 @@
 # handbook
 Vanderbilt Biostatistics Grad Student Handbook
 
+Currently hosted at http://www.lucymcgowan.com/handbook/
+
 ## add chapter
 To add a chapter create a file called chapternumber_chaptername.Rmd (for example 01_Introduction.Rmd). 
 
