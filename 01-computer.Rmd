@@ -88,7 +88,7 @@ The consistent naming convention allows me to have set code to run everything fo
 
 The `archive` folder contains projects that I have completed. These are backed up every time a new folder is added, but not as regularly as the `working` folder.
 
-## Github
+## Github {#github}
 
 If you do not already have one, set up a [github account](https://github.com) -- make sure that you get an [education discount](https://education.github.com/) so you can set up private repos.
 
