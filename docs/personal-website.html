@@ -7,14 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Vanderbilt Biostatistics Graduate Student Handbook</title>
   <meta name="description" content="This is a handbook written by students for students in the Vanderbilt Biostatistics program">
-  <meta name="generator" content="bookdown 0.4 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
 
   <meta property="og:title" content="Vanderbilt Biostatistics Graduate Student Handbook" />
   <meta property="og:type" content="book" />
   
   
   <meta property="og:description" content="This is a handbook written by students for students in the Vanderbilt Biostatistics program" />
-  <meta name="github-repo" content="lucymcgowan/handbook" />
+  <meta name="github-repo" content="vandybgsa/handbook" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Vanderbilt Biostatistics Graduate Student Handbook" />
@@ -25,7 +25,7 @@
 <meta name="author" content="Lucy D’Agostino McGowan, Nathan James, Nick Strayer, Sandya Lakkur">
 
 
-<meta name="date" content="2017-08-21">
+<meta name="date" content="2018-08-14">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -237,9 +237,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 </div>
 <p>Now open your terminal, navigate to the area where you want to story your website on your local computer and then type in…</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">git</span> clone https://github.com/nstrayer/personal_site.git  <span class="co">#&lt;- Replace this with your personal link. </span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> clone https://github.com/nstrayer/personal_site.git  #<span class="op">&lt;</span>- Replace this with your personal link. </code></pre></div>
 <p>There are multiple ways to host websites on github. One is to create a new branch called <code>gh-pages</code>, the other is to tell github to manually tell github look in the master branch. We will do it the latter way.</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cd</span> personal_site/  <span class="co">#&lt;- Again, replace this with your own folder name</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="bu">cd</span> personal_site/  #<span class="op">&lt;</span>- Again, replace this with your own folder name</code></pre></div>
 <p>This navigates you into your new repo.</p>
 <p>Now we need to let github know that we want it to look for files to host in our master branch. Navigate to your repository and click Settings on the top right.</p>
 <div class="figure">
@@ -259,32 +259,32 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>First we do some administrative work to make sure we don’t run into roadblocks on the way. Let’s update our <code>rmarkdown</code> package to make sure we actually have the version that supports RMarkdown websites.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="st">&quot;rmarkdown&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;source&quot;</span>)</code></pre></div>
 <p>Next we need to create a couple empty files inside your repository.</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">touch</span> _site.yml <span class="co">#&quot;YML&quot; file that tells your website how to assemble itself</span>
-<span class="kw">touch</span> index.Rmd <span class="co">#Create the main rmd file</span>
-<span class="kw">touch</span> about.Rmd <span class="co">#Create an about file</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">touch</span> _site.yml <span class="co">#&quot;YML&quot; file that tells your website how to assemble itself</span>
+<span class="fu">touch</span> index.Rmd <span class="co">#Create the main rmd file</span>
+<span class="fu">touch</span> about.Rmd <span class="co">#Create an about file</span></code></pre></div>
 <p>Now open all of these files in RStudio.</p>
 <p>We will start by filling out the <code>yml</code> file. <code>yml</code> files, while confusing looking at first, are basically a road-map for R to know how to assemble your website.</p>
 <p>_<strong>site.yml</strong></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">name:<span class="st"> &quot;nicks-website&quot;</span>
-output_dir:<span class="st"> &quot;.&quot;</span>
-navbar:
-<span class="st">  </span>title:<span class="st"> &quot;Nicks Website&quot;</span>
-  left:
-<span class="st">    </span>-<span class="st"> </span>text:<span class="st"> &quot;Home&quot;</span>
-      href:<span class="st"> </span>index.html
-    -<span class="st"> </span>text:<span class="st"> &quot;About Me&quot;</span>
-      href:<span class="st"> </span>about.html</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">name<span class="op">:</span><span class="st"> &quot;nicks-website&quot;</span>
+output_dir<span class="op">:</span><span class="st"> &quot;.&quot;</span>
+navbar<span class="op">:</span>
+<span class="st">  </span>title<span class="op">:</span><span class="st"> &quot;Nicks Website&quot;</span>
+  left<span class="op">:</span>
+<span class="st">    </span><span class="op">-</span><span class="st"> </span>text<span class="op">:</span><span class="st"> &quot;Home&quot;</span>
+      href<span class="op">:</span><span class="st"> </span>index.html
+    <span class="op">-</span><span class="st"> </span>text<span class="op">:</span><span class="st"> &quot;About Me&quot;</span>
+      href<span class="op">:</span><span class="st"> </span>about.html</code></pre></div>
 <p>Next we will fill out the bare minimum for the <code>.Rmd</code> files.</p>
 <p><strong>index.Rmd</strong></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">---
-title:<span class="st"> &quot;Nick&#39;s Website&quot;</span>
----
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="op">---</span>
+title<span class="op">:</span><span class="st"> &quot;Nick&#39;s Website&quot;</span>
+<span class="op">---</span>
 
-Hello, World!</code></pre></div>
+Hello, World<span class="op">!</span></code></pre></div>
 <p><strong>about.Rmd</strong></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">---
-title:<span class="st"> &quot;About Me&quot;</span>
----
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="op">---</span>
+title<span class="op">:</span><span class="st"> &quot;About Me&quot;</span>
+<span class="op">---</span>
 
 Why I am awesome. </code></pre></div>
 <p><em>If you got lost at any point during this tutorial, you can download a template of these files from <a href="https://github.com/LucyMcGowan/Example-RMarkdown-site">Lucy’s github</a>.</em></p>
@@ -293,7 +293,7 @@ Why I am awesome. </code></pre></div>
 <h2><span class="header-section-number">6.6</span> Let’s build it!</h2>
 <p>Okay, one last step to actually have a functioning website. We need to actually turn these separate files into a single cohesive website.</p>
 <p>To do this we are going to create one more file. This time just a plain r script.</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">touch</span> build_site.R</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">touch</span> build_site.R</code></pre></div>
 <p><strong>build_site.R</strong></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co">#Set our working directory. </span>
 <span class="co">#This helps avoid confusion if our working directory is </span>
@@ -302,7 +302,7 @@ Why I am awesome. </code></pre></div>
 <span class="kw">setwd</span>(<span class="st">&quot;/Users/Nick/personal_site&quot;</span>)
 
 <span class="co">#render your sweet site. </span>
-rmarkdown::<span class="kw">render_site</span>()</code></pre></div>
+rmarkdown<span class="op">::</span><span class="kw">render_site</span>()</code></pre></div>
 <p>As a note, you could skip this step if you had started by creating an RStudio project, however, by doing it this way we are not dependent upon RStudio itself. This could be helpful if in the future you are doing this on a computer without RStudio. It also helps explain the process a little bit more.</p>
 <p>Now if everything has gone according to plan, by running the code in <code>build_site.R</code> you should get a bunch of unintelligible output followed by the message : <code>Output created: index.html</code>. If so, yay, if not, double check all the stuff above to make sure you followed it exactly. Or more likely I messed up and you should inform me.</p>
 <p>Now we can open it up. Open the repository with <code>finder</code> or whatever tool your computer uses to look at files then click on <code>index.html</code> and hopefully you should get something that looks like this.</p>
@@ -316,13 +316,13 @@ rmarkdown::<span class="kw">render_site</span>()</code></pre></div>
 <h2><span class="header-section-number">6.7</span> Git it hosted</h2>
 <p>Now we just have to add commit and push everything to github.</p>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="co">#Let&#39;s add all the files to our git staging area</span>
-<span class="kw">git</span> add -A <span class="co">#the -A flag tells it git you want everything</span>
+<span class="fu">git</span> add -A <span class="co">#the -A flag tells it git you want everything</span>
 
 <span class="co">#Now we can commit</span>
-<span class="kw">git</span> commit -m <span class="st">&quot;My first website commit. The begining of greatness&quot;</span>
+<span class="fu">git</span> commit -m <span class="st">&quot;My first website commit. The begining of greatness&quot;</span>
 
 <span class="co">#Now we push. Note the addendum to normal pushing</span>
-<span class="kw">git</span> push origin master</code></pre></div>
+<span class="fu">git</span> push origin master</code></pre></div>
 <p>Now we can navigate to our hosted site! Open your browser of choice and go to <code>www.&lt;your github name&gt;.github.io/&lt;your sites repo name&gt;</code>. (E.g. <code>www.nstrayer.github.io/personal_site</code>).</p>
 <p><em>Note: github has to build stuff on its end so it may take a minute or so for stuff to show up. Just keep impatiently refreshing the page and it will go faster.</em></p>
 <p>Yay, it works. Now we can make it better.</p>
@@ -349,7 +349,7 @@ Here is a super cool photo of me doing one of my favorite things, yawning.
 
 </div>
 <p>Oh my, that photo looks mighty large. Perhaps we want to make it smaller. We can do that, by adding a special styling file called a <code>css</code> file. Back to the terminal…</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">touch</span> style.css</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">touch</span> style.css</code></pre></div>
 <p>Now open this file up in R and add the following lines:</p>
 <p><strong>style.css</strong></p>
 <pre><code>img {
@@ -360,19 +360,19 @@ Here is a super cool photo of me doing one of my favorite things, yawning.
 <p>This takes every image that appears on our site and makes them 400 pixels wide and centers them. You can change these parameters as you want. There are infinitely many ways to customize the style of a website using css. For more information try googling <code>how to &lt;do something&gt; with css</code> and you will most likely find 10,000 ways to do it.</p>
 <p>Now just add the following lines to your <code>_site.yml</code> file to apply this css to your site.</p>
 <p>_<strong>site.yml</strong></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">name:<span class="st"> &quot;nicks-website&quot;</span>
-output_dir:<span class="st"> &quot;.&quot;</span>
-navbar:
-<span class="st">  </span>title:<span class="st"> &quot;Nicks Website&quot;</span>
-  left:
-<span class="st">    </span>-<span class="st"> </span>text:<span class="st"> &quot;Home&quot;</span>
-      href:<span class="st"> </span>index.html
-    -<span class="st"> </span>text:<span class="st"> &quot;About Me&quot;</span>
-      href:<span class="st"> </span>about.html
-output:
-<span class="st">  </span>html_document:
-<span class="st">    </span>theme:<span class="st"> </span>flatly
-    css:<span class="st"> </span>style.css</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">name<span class="op">:</span><span class="st"> &quot;nicks-website&quot;</span>
+output_dir<span class="op">:</span><span class="st"> &quot;.&quot;</span>
+navbar<span class="op">:</span>
+<span class="st">  </span>title<span class="op">:</span><span class="st"> &quot;Nicks Website&quot;</span>
+  left<span class="op">:</span>
+<span class="st">    </span><span class="op">-</span><span class="st"> </span>text<span class="op">:</span><span class="st"> &quot;Home&quot;</span>
+      href<span class="op">:</span><span class="st"> </span>index.html
+    <span class="op">-</span><span class="st"> </span>text<span class="op">:</span><span class="st"> &quot;About Me&quot;</span>
+      href<span class="op">:</span><span class="st"> </span>about.html
+output<span class="op">:</span>
+<span class="st">  </span>html_document<span class="op">:</span>
+<span class="st">    </span>theme<span class="op">:</span><span class="st"> </span>flatly
+    css<span class="op">:</span><span class="st"> </span>style.css</code></pre></div>
 <p>We have done a few things here. One we have created the new <code>output</code> field. We have given it a theme (you can choose from any you desire <a href="http://bootswatch.com/">here</a>) and we have added our custom css file to the whole thing as well.</p>
 <p>Once again, run <code>build_site.R</code> to checkout how things have changed.</p>
 <div class="figure">
@@ -387,28 +387,28 @@ output:
 <p>Let’s make a page with links to your cool (open) projects.</p>
 <p>Again we edit the <code>_site.yml</code> file…</p>
 <p>_<strong>site.yml</strong></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">name:<span class="st"> &quot;nicks-website&quot;</span>
-output_dir:<span class="st"> &quot;.&quot;</span>
-navbar:
-<span class="st">  </span>title:<span class="st"> &quot;Nicks Website&quot;</span>
-  left:
-<span class="st">    </span>-<span class="st"> </span>text:<span class="st"> &quot;Home&quot;</span>
-      href:<span class="st"> </span>index.html
-    -<span class="st"> </span>text:<span class="st"> &quot;Projects&quot;</span>     ##### the new
-      href:<span class="st"> </span>projects.html  ##### stuff
-    -<span class="st"> </span>text:<span class="st"> &quot;About Me&quot;</span>
-      href:<span class="st"> </span>about.html
-output:
-<span class="st">  </span>html_document:
-<span class="st">    </span>theme:<span class="st"> </span>flatly
-    css:<span class="st"> </span>style.css</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">name<span class="op">:</span><span class="st"> &quot;nicks-website&quot;</span>
+output_dir<span class="op">:</span><span class="st"> &quot;.&quot;</span>
+navbar<span class="op">:</span>
+<span class="st">  </span>title<span class="op">:</span><span class="st"> &quot;Nicks Website&quot;</span>
+  left<span class="op">:</span>
+<span class="st">    </span><span class="op">-</span><span class="st"> </span>text<span class="op">:</span><span class="st"> &quot;Home&quot;</span>
+      href<span class="op">:</span><span class="st"> </span>index.html
+    <span class="op">-</span><span class="st"> </span>text<span class="op">:</span><span class="st"> &quot;Projects&quot;</span>     ##### the new
+      href<span class="op">:</span><span class="st"> </span>projects.html  ##### stuff
+    <span class="op">-</span><span class="st"> </span>text<span class="op">:</span><span class="st"> &quot;About Me&quot;</span>
+      href<span class="op">:</span><span class="st"> </span>about.html
+output<span class="op">:</span>
+<span class="st">  </span>html_document<span class="op">:</span>
+<span class="st">    </span>theme<span class="op">:</span><span class="st"> </span>flatly
+    css<span class="op">:</span><span class="st"> </span>style.css</code></pre></div>
 <p>Add another file called <code>projects.Rmd</code> (you know how to do this at this point).</p>
 <p><strong>projects.Rmd</strong></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">---
-title:<span class="st"> &quot;Projects&quot;</span>
----
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="op">---</span>
+title<span class="op">:</span><span class="st"> &quot;Projects&quot;</span>
+<span class="op">---</span>
 
-Sometimes I like to do projects and then post them on the internet for the whole world to benefit!
+Sometimes I like to do projects and then post them on the internet <span class="cf">for</span> the whole world to benefit<span class="op">!</span>
 here<span class="st">&#39;s some examples. </span>
 
 <span class="st">## [Data Visualization in R](http://nickstrayer.me/visualization_in_r/)</span>
@@ -506,17 +506,18 @@ ggplot(results, aes(x = xs, y = ys, color = alpha)) +
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
 <script>
-require(["gitbook"], function(gitbook) {
+gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
 "github": false,
 "facebook": true,
 "twitter": true,
 "google": false,
+"linkedin": false,
 "weibo": false,
 "instapper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -540,9 +541,11 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(script.src))
-      script.src  = script.src.replace(/^https?:/, '');
+    var src = "";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

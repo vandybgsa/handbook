@@ -7,14 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Vanderbilt Biostatistics Graduate Student Handbook</title>
   <meta name="description" content="This is a handbook written by students for students in the Vanderbilt Biostatistics program">
-  <meta name="generator" content="bookdown 0.4 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
 
   <meta property="og:title" content="Vanderbilt Biostatistics Graduate Student Handbook" />
   <meta property="og:type" content="book" />
   
   
   <meta property="og:description" content="This is a handbook written by students for students in the Vanderbilt Biostatistics program" />
-  <meta name="github-repo" content="lucymcgowan/handbook" />
+  <meta name="github-repo" content="vandybgsa/handbook" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Vanderbilt Biostatistics Graduate Student Handbook" />
@@ -25,7 +25,7 @@
 <meta name="author" content="Lucy D’Agostino McGowan, Nathan James, Nick Strayer, Sandya Lakkur">
 
 
-<meta name="date" content="2017-08-21">
+<meta name="date" content="2018-08-14">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -185,7 +185,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
             <section class="normal" id="section-">
 <div id="computing" class="section level1">
 <h1><span class="header-section-number">Chapter 2</span> Computing Tips</h1>
-<p>Most (read: all-2) of the students here use macs. It is not required, but it will make your life easier. These are some tips that I feel have made me successful, but there are definitely other ways to do it.</p>
+<p>Almost all of the students here use macs. It is not required, but it will make your life easier. These are some tips that I feel have made me successful, but there are definitely other ways to do it.</p>
 <div id="downloads" class="section level2">
 <h2><span class="header-section-number">2.1</span> Downloads</h2>
 <p>Here are some things you should get on your computer before you get started.</p>
@@ -303,7 +303,7 @@ git config --global push.default current
 </div>
 <div id="statistical-software" class="section level2">
 <h2><span class="header-section-number">2.5</span> Statistical Software</h2>
-<p>In this department, we conduct the majority of our analyses using <code>R</code> &amp; <code>python</code>. We use <code>Stata</code> for one class, so you may want to get that as well. If you are interested in learning SAS, check <a href="https://support.sas.com/edu/schedules.html?ctry=us&amp;id=2588">this</a> out.</p>
+<p>In this department, we conduct the majority of our analyses using <code>R</code> &amp; <code>python</code>. We use <code>Stata</code> for a few classes, so you may want to get that as well. If you are interested in learning SAS, check <a href="https://support.sas.com/edu/schedules.html?ctry=us&amp;id=2588">this</a> out.</p>
 
 </div>
 </div>
@@ -324,17 +324,18 @@ git config --global push.default current
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
 <script>
-require(["gitbook"], function(gitbook) {
+gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
 "github": false,
 "facebook": true,
 "twitter": true,
 "google": false,
+"linkedin": false,
 "weibo": false,
 "instapper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -358,9 +359,11 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(script.src))
-      script.src  = script.src.replace(/^https?:/, '');
+    var src = "";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

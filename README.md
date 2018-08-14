@@ -1,7 +1,7 @@
 # handbook
 Vanderbilt Biostatistics Grad Student Handbook
 
-Currently hosted at ???
+Currently hosted at https://vandybgsa.github.io/handbook/
 
 ## add chapter
 To add a chapter create a file called chapternumber_chaptername.Rmd (for example 01_Introduction.Rmd). 

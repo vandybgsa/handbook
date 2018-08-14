@@ -7,14 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Vanderbilt Biostatistics Graduate Student Handbook</title>
   <meta name="description" content="This is a handbook written by students for students in the Vanderbilt Biostatistics program">
-  <meta name="generator" content="bookdown 0.4 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
 
   <meta property="og:title" content="Vanderbilt Biostatistics Graduate Student Handbook" />
   <meta property="og:type" content="book" />
   
   
   <meta property="og:description" content="This is a handbook written by students for students in the Vanderbilt Biostatistics program" />
-  <meta name="github-repo" content="lucymcgowan/handbook" />
+  <meta name="github-repo" content="vandybgsa/handbook" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Vanderbilt Biostatistics Graduate Student Handbook" />
@@ -25,7 +25,7 @@
 <meta name="author" content="Lucy D’Agostino McGowan, Nathan James, Nick Strayer, Sandya Lakkur">
 
 
-<meta name="date" content="2017-08-21">
+<meta name="date" content="2018-08-14">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -186,7 +186,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="header">
 <h1 class="title">Vanderbilt Biostatistics Graduate Student Handbook</h1>
 <h4 class="author"><em>Lucy D’Agostino McGowan, Nathan James, Nick Strayer, Sandya Lakkur</em></h4>
-<h4 class="date"><em>2017-08-21</em></h4>
+<h4 class="date"><em>2018-08-14</em></h4>
 </div>
 <div id="introduction" class="section level1">
 <h1><span class="header-section-number">Chapter 1</span> Introduction</h1>
@@ -195,7 +195,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <img src="http://imgs.xkcd.com/comics/manuals.png" />
 
 </div>
-<p>The student handbook code is on github <a href="https://github.com/LucyMcGowan/handbook">here</a>. You can contribute by starting a new issue, modifying a page, or adding a new page. See <span class="math inline">\(\S\)</span> <a href="computing.html#github">2.3</a> to get started with github.</p>
+<p>The student handbook code is on github <a href="https://github.com/vandybgsa/handbook">here</a>. You can contribute by starting a new issue, modifying a page, or adding a new page. See <span class="math inline">\(\S\)</span> <a href="computing.html#github">2.3</a> to get started with github.</p>
 
 </div>
             </section>
@@ -215,17 +215,18 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
 <script>
-require(["gitbook"], function(gitbook) {
+gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
 "github": false,
 "facebook": true,
 "twitter": true,
 "google": false,
+"linkedin": false,
 "weibo": false,
 "instapper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -249,9 +250,11 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(script.src))
-      script.src  = script.src.replace(/^https?:/, '');
+    var src = "";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
