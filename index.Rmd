@@ -18,4 +18,4 @@ Welcome to Vanderbilt's Biostatistics Graduate Program! We are so happy you are 
 ![](http://imgs.xkcd.com/comics/manuals.png)
 
 
-The student handbook code is on github [here](https://github.com/LucyMcGowan/handbook). You can contribute by starting a new issue, modifying a page, or adding a new page.  See $\S$ \@ref(github) to get started with github.
+The student handbook code is on github [here](https://github.com/vandybgsa/handbook). You can contribute by starting a new issue, modifying a page, or adding a new page.  See $\S$ \@ref(github) to get started with github.
