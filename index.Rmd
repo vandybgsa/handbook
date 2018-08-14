@@ -1,13 +1,13 @@
 --- 
 title: "Vanderbilt Biostatistics Graduate Student Handbook"
-author: "Lucy D'Agostino McGowan,  Nathan James, Nick Strayer, Sandya Lakkur"
+author: "Lucy D'Agostino McGowan, Nathan James, Nick Strayer, Sandya Lakkur"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
 biblio-style: apalike
 link-citations: yes
-github-repo: lucymcgowan/handbook
+github-repo: vandybgsa/handbook
 description: "This is a handbook written by students for students in the Vanderbilt Biostatistics program"
 ---
 

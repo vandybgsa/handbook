@@ -141,4 +141,4 @@ git config --global push.default current
 
 ## Statistical Software
 
-In this department, we conduct the majority of our analyses using `R` & `python`. We use `Stata` for one class, so you may want to get that as well. If you are interested in learning SAS, check [this](https://support.sas.com/edu/schedules.html?ctry=us&id=2588) out.
+In this department, we conduct the majority of our analyses using `R` & `python`. We use `Stata` for a few classes, so you may want to get that as well. If you are interested in learning SAS, check [this](https://support.sas.com/edu/schedules.html?ctry=us&id=2588) out.
