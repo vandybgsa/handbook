@@ -1,7 +1,7 @@
 # handbook
 Vanderbilt Biostatistics Grad Student Handbook
 
-Currently hosted at http://www.lucymcgowan.com/handbook/
+Currently hosted at ???
 
 ## add chapter
 To add a chapter create a file called chapternumber_chaptername.Rmd (for example 01_Introduction.Rmd). 
@@ -17,7 +17,7 @@ To add a chapter create a file called chapternumber_chaptername.Rmd (for example
 8) Click on the files you would like to commit  
 9) Add a commit message then click Commit  
 10) Click on the green arrow to push to github  
-11) Submit a pull request to the main repo so Lucy can incorporate changes  
+11) Submit a pull request to the main repo so your changes can be incorporated  
 
 ## compile handbook
 After updating, be sure to compile the handbook by setting your working directory and running
