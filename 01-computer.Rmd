@@ -95,6 +95,7 @@ If you do not already have one, set up a [github account](https://github.com) --
 ![](http://imgs.xkcd.com/comics/git.png)
 
 * Jenny Bryan has an awesome course on [Github for the useR](http://happygitwithr.com/). 
+* [Gitkraken](https://www.gitkraken.com/) is a nice GUI to avoid using git at the command line
 * For some [giggles](http://www.commitlogsfromlastnight.com)
 
 ## Bash Profile
