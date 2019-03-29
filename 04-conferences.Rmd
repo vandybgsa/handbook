@@ -5,11 +5,13 @@ Here is a (brief) list of conferences that we like to attend:
 conference | time of year | abstracts due | student scholarships
 -----------|--------------|---------------|----------------------
 ENAR       | March        | early/mid October | [available](https://www.enar.org/meetings/StudentPaperAwards/)
-JSM        | 1st week of August | student awards: Nov/Dec | [available](https://www.amstat.org/asa/education/Student-Paper-Competition-Travel-Award-to-Attend-the-Joint-Statistical-Meetings.aspx)
-WSDS       | late October | -- | available
-useR       | June/July    | February | available
-APHA       | late October/early November | March | available
 SAS Global Forum | April | September/October | [available](https://support.sas.com/learn/ap/student/amb.html)
+useR       | June/July    | February | available
+JSM        | 1st week of August | student awards: Nov/Dec | [available](https://www.amstat.org/asa/education/Student-Paper-Competition-Travel-Award-to-Attend-the-Joint-Statistical-Meetings.aspx)
+ASA Biopharm Regulatory-Industry Statistics Workshop| September | mid April | available
+WSDS       | late October | mid April | available
+APHA       | late October/early November | March | available
+
 ## Scholarships
 
 Students in our department have had success applying to the following funding sources

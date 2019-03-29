@@ -8,3 +8,29 @@ You can find a large portion of the textbooks required for classes online. Since
 
 [All of the books ever](https://www.dropbox.com/sh/mea9q94nletfsdy/AACD5QC_-RZKfBakR6qSXVrSa?dl=0)
 
+## Comprehensive Exams 
+
+You can check out the official biostatistics graduate department [comprehensive exams page](https://www.vanderbilt.edu/biostatistics-graduate/current-program/comprehensive-examinations/) and [sample exams](https://www.vanderbilt.edu//biostatistics-graduate/current-program/comprehensive-examinations/sample-exams/) from previous years
+
+Below are some resources that previous students have developed to help you prepare for the comps
+
+### First Year
+
+Lucy's [1st year comps survival guide](https://github.com/LucyMcGowan/comps-survival-guide) has printable flashcards based on Foundations of Statistical Inference and Fundamentals of Probability. The github repo is [here](https://github.com/LucyMcGowan/comps-survival-guide).
+
+Nathan's [Inference notes](figs/comp_inf_notes.pdf) and [Probability notes](figs/comp_prob_notes.pdf) outline a lot of the main ideas, formulas, theorems, etc. tested on the 1st year comps. Use these as a starting point to develop your own summaries
+
+John Muschelli, a former Johns Hopkins biostatistics PhD student, wrote a blog post with some good [tips for first year comprehensive exams](https://hopstat.wordpress.com/2016/03/28/tips-for-first-year-comprehensive-exams/)
+
+### Second Year
+
+The 2nd year comp is a one week take-home exam. In some ways there is less time pressure than the 1st year comps, but much more work and in-depth thought is required. Here are some tips:
+
+* Read through the entire exam once or twice before you start working on individual problems. This will allow you to note what topics are relevant for each problem and come up with a strategy for how to allocate enough time to complete each section.
+
+* You can get a head start by making a template for the analysis part of the exam. Check out past exams to get an idea of the general format for your template.
+
+* If you are doing simulations or models that take a while to run the `cache=TRUE` chunk option in Rmarkdown can save a lot of time. Consider separating the code chunks that run the analysis (e.g. fitting models) from code chunks that use the output of analysis (e.g. plotting predicted values or summarizing model fits). That way you won't have to re-run the time consuming code chunk if you only want to tweak a graph or summary table.
+
+
+
