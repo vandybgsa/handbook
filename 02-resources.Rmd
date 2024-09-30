@@ -40,31 +40,37 @@ Here are a few orals exams document examples offered by some students who passed
 
 The orals exam requirements varies a lot among advisors and depends a lot on dissertation progress. 
 
--------------------------------------------------------------------------------------------------------- --------------------
-Name              (Then) advisor        Requirement from Advisor                                          Link to document(s)
--------------- ----------------------- ----------------------------------------------------------------- --------------------
-Megan Jones    Simon Vandekar           "the only 'requirements' were a written document over some        [Slide and Document](https://github.
-                                        statistical topic and corresponding slides for the exam portion.  com/MeganTJ21/Orals/tree/main)
-                                        Since I had already finished one project and was starting on 
-                                        another, he basically advised me to put the paper I had done 
-                                        as one of the sections (so it is the bulk of my written doc) 
-                                        and do some lit review related to the next project."
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Name              (Then) advisor        Quote: Requirement from Their Advisor                 Link to document(s)
+-------------- ----------------------- ---------------------------------------------------- --------------------------------------------------------------------------------
+Megan Jones    Simon Vandekar           The only 'requirements' were a written document     [Slide and Document](https://github.com/MeganTJ21/Orals/tree/main)
+                                        over some statistical topic and corresponding    
+                                        slides for the exam portion.Since I had already 
+                                        finished one project and was starting on another,
+                                        he basically advised me to put the paper I had 
+                                        done as one of the sections (so it is the bulk 
+                                        of my written doc) and do some lit review related
+                                        to the next project.
 
-Yeji Ko        Ben French               One page background literature review and presentation slides.
+Yeji Ko        Ben French               One page background literature review and 
+                                        presentation slides.
 
-Max Rohde      Frank Harrell            I just sent in a rough draft of my tutorial paper in Statistics 
-               Ben French               in Medicine (first dissertation paper).
-               
-Lan Shi        Dandan Liu               Dandan has only required presentation slides and no overview 
-                                        document is required.
+Max Rohde      Frank Harrell            I just sent in a rough draft of my tutorial paper   [Paper](https://onlinelibrary.wiley.com/doi/10.1002/sim.10133)
+               Ben French               in Statistics in Medicine (first dissertation 
+                                        paper).
+                                                         
+Lan Shi        Dandan Liu               Dandan has only required presentation slides and
+                                        no overview document is required.
 
-Joshua Slone   Bryan Shepherd           I think Bryan considers the document as a Pass/Fail completion 
-                                        requirement. He provided more feedback about the presentation. 
-                                        Also, though, the content was very similar so it applies to both.
+Joshua Slone   Bryan Shepherd           I think Bryan considers the document as a Pass/Fail
+                                        completion requirement. He provided more feedback 
+                                        about the presentation. Also, though, the content 
+                                        was very similar so it applies to both.
 
-Ruby Xiong     Simon Vandekar           It is my first disseratation paper plus a literature review for 
-                                        my second dissertation paper. Simon did not care for document 
-                                        format so I experimented with quarto website.
+Ruby Xiong     Simon Vandekar           It is my first disseratation paper plus a           [Document](https://jiangmeirubyxiong.github.io/OralsExam/)
+                                        literature review for my second dissertation paper.
+                                        Simon did not care for document format so I 
+                                        experimented with quarto website.
 ----------------------------------------------------------------------------------------------------------------------------------
 
 
