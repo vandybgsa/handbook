@@ -40,10 +40,10 @@ Here are a few orals exams document examples offered by some students who passed
 
 The orals exam requirements varies a lot among advisors and depends a lot on dissertation progress. 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Name              (Then) advisor        Quote: Requirement from Their Advisor                 Link to document(s)
--------------- ----------------------- ---------------------------------------------------- --------------------------------------------------------------------------------
-Megan Jones    Simon Vandekar           The only 'requirements' were a written document     [Slide and Document](https://github.com/MeganTJ21/Orals/tree/main)
+----------------------------------------------------------------------------------------------------------
+Name              (Then) Advisor        Quote: Requirement from Their Advisor                 Link to document(s)
+-------------- ----------------- --------------------------------------------------------- --------------
+Megan Jones    Simon Vandekar           The only 'requirements' were a written document     [Slides and Document](https://github.com/MeganTJ21/Orals/tree/main)
                                         over some statistical topic and corresponding    
                                         slides for the exam portion.Since I had already 
                                         finished one project and was starting on another,
@@ -52,18 +52,18 @@ Megan Jones    Simon Vandekar           The only 'requirements' were a written d
                                         of my written doc) and do some lit review related
                                         to the next project.
 
-Yeji Ko        Ben French               One page background literature review and 
-                                        presentation slides.
+Yeji Ko        Ben French               One page background literature review and           [Slides](https://github.com/vandybgsa/handbook/blob/master/docs/orals_sample/Yeji_Ko_Oral%20exam%20slides.pdf)
+                                        presentation slides.                                [Document](https://github.com/vandybgsa/handbook/blob/master/docs/orals_sample/Yeji_Ko_Literature%20review.pdf)
 
 Max Rohde      Frank Harrell            I just sent in a rough draft of my tutorial paper   [Paper](https://onlinelibrary.wiley.com/doi/10.1002/sim.10133)
                Ben French               in Statistics in Medicine (first dissertation 
                                         paper).
                                                          
-Lan Shi        Dandan Liu               Dandan has only required presentation slides and
+Lan Shi        Dandan Liu               Dandan has only required presentation slides and    [Slides](https://github.com/vandybgsa/handbook/blob/master/docs/orals_sample/Oral_LanShi.pptx)
                                         no overview document is required.
 
-Joshua Slone   Bryan Shepherd           I think Bryan considers the document as a Pass/Fail
-                                        completion requirement. He provided more feedback 
+Joshua Slone   Bryan Shepherd           I think Bryan considers the document as a Pass/Fail [Slides](https://github.com/vandybgsa/handbook/blob/master/docs/orals_sample/Slone_qualifying%20exam.pptx)
+                                        completion requirement. He provided more feedback   [Document](https://github.com/vandybgsa/handbook/blob/master/docs/orals_sample/Qualifying_exam_Slone.pdf)
                                         about the presentation. Also, though, the content 
                                         was very similar so it applies to both.
 
@@ -71,7 +71,7 @@ Ruby Xiong     Simon Vandekar           It is my first disseratation paper plus 
                                         literature review for my second dissertation paper.
                                         Simon did not care for document format so I 
                                         experimented with quarto website.
-----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 
 
 
