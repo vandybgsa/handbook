@@ -16,13 +16,21 @@ description: "This is an UNOFFICIAL survival guide written by students for stude
 Welcome to Vanderbilt's Biostatistics Graduate Program! We are so happy you are here. This is meant to serve as a bit of a manual for incoming students to help your transition go a bit smoother. We have compiled our best & wildest advice into a beautiful [bookdown](https://bookdown.org/yihui/bookdown/) book. ENJOY (or else...)
 
 
-<div style="float: right">
+:::: {style="display: flex;"}
+
+::: {}
+
 The original version of this book was written prior to 2020, and current BGSA leadership are in the process of revamping it with our most up-to-date advice. Email [Ashley Mullan](mailto:ashley.e.mullan@vanderbilt.edu) if you catch anything that needs an update.
 
-</div>
-<p>
-![](figs/under_construction.gif)
-</p>
+:::
+
+::: {}
+
+![](figs/under_construction.gif){width=100%}
+
+:::
+
+::::
 
 
 
