@@ -1,0 +1,38 @@
+# Conferences {#sec-conferences}
+
+Here is a (brief) list of conferences that we like to attend:
+
+conference | time of year | abstracts due | student scholarships
+-----------|--------------|---------------|----------------------
+ENAR       | March        | early/mid October | [available](https://www.enar.org/meetings/StudentPaperAwards/)
+SAS Global Forum | April | September/October | [available](https://support.sas.com/learn/ap/student/amb.html)
+useR       | June/July    | February | available
+JSM        | 1st week of August | student awards: Nov/Dec | [available](https://www.amstat.org/asa/education/Student-Paper-Competition-Travel-Award-to-Attend-the-Joint-Statistical-Meetings.aspx)
+ASA Biopharm Regulatory-Industry Statistics Workshop| September | mid April | available
+WSDS       | late October | mid April | available
+IDWSDS     | early October | mid May  | not needed, free and virtual
+APHA       | late October/early November | March | available
+
+## Scholarships
+
+Students in our department have had success applying to the following funding sources
+
+* We have had three 1st place successes for the Government Statistics Section [Data Challenge](http://community.amstat.org/governmentstatisticssection/awards/competitions). 
+    * Chat with [Ryan](https://www.vanderbilt.edu/biostatistics-graduate/cpt/people/ryan-jarrett/), [Lucy](https://www.vanderbilt.edu/biostatistics-graduate/cpt/people/lucy-dagostino-mcgowan/),
+[Nathan](https://www.vanderbilt.edu/biostatistics-graduate/cpt/people/nathan-james/), or
+[Jacquelyn](https://www.vanderbilt.edu/biostatistics-graduate/cpt/people/jacquelyn-neal/)
+    for more information.
+* Women in Statistics and Data Science Travel Award. 
+    * Chat with [Hannah](https://www.vumc.org/biostatistics/person/hannah-weeks-krason), [Alli](https://www.vumc.org/biostatistics/person/allison-hainline), [Jacquelyn](https://www.vumc.org/biostatistics/person/jacquelyn-neal), [Lucy](https://www.vumc.org/biostatistics/person/lucy-dagostino-mcgowan), or [Ashley](https://www.vumc.org/biostatistics/person/ashley-mullan) for more information.
+* useR Student Scholarship
+    * Chat with [Laurie](https://www.vumc.org/biostatistics/person/lauren-r-samuels) for more information.
+* APHA Applied Public Health Statistics section Student Paper Award
+    * Chat with [Lucy](https://www.vumc.org/biostatistics/person/lucy-dagostino-mcgowan) for more information. 
+* SAS Global Forum Student Ambassador
+    * Chat with [Lucy](https://www.vumc.org/biostatistics/person/lucy-dagostino-mcgowan) for more information. 
+* JSM Diversity Mentoring Program
+    * Chat with [Nathan](https://www.vumc.org/biostatistics/person/nathan-james) for more information.
+* Gertrude M. Cox Scholarship
+    * Chat with [Ashley](https://www.vumc.org/biostatistics/person/ashley-mullan) for more information.
+* ASA Biopharmaceutical Section Travel Award for WSDS
+    * Chat with [Ashley](https://www.vumc.org/biostatistics/person/ashley-mullan) for more information.

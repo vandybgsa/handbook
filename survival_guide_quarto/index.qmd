@@ -1,0 +1,29 @@
+# Introduction {.unnumbered}
+
+<strong style="color: #CFAE70;"> DISCLAIMER: Please note that this is an UNOFFICIAL guide, as is our [website](https://vandybgsa.github.io/). For all current university policy and procedure references, hop on over to the resources page on our [official program website](https://www.vanderbilt.edu/biostatistics-graduate/). Our department-issued student handbook lives there, as do links to other relevant offices. </strong>
+
+Welcome to Vanderbilt's Biostatistics Graduate Program! We are so happy you are here. This is an UNOFFICIAL survival guide written by students for students in the Vanderbilt Biostatistics program. Thank you to the original four authors (Lucy, Nathan, Nick, and Sandya) for getting this book started! 
+
+We hope this helps incoming students transition to our department more smoothly and serves as a reference for senior students. Graduate students throughout the history of the program have compiled our best & wildest advice into a beautiful Quarto book. ENJOY (or else...)
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+The original version of this book was written prior to 2020, and current BGSA leadership are in the process of revamping it with our most up-to-date advice. Email [Ashley Mullan](mailto:ashley.e.mullan@vanderbilt.edu) if you catch anything that needs an update.
+
+:::
+
+::: {.column width ="70%"}
+
+![](figs/under_construction.gif){height=40%}
+
+:::
+
+::::
+
+
+![](http://imgs.xkcd.com/comics/manuals.png){width=100%}
+
+
+The student survival guide code is on GitHub [here](https://github.com/vandybgsa/handbook). You can contribute by starting a new issue, modifying a page, adding a new page, or emailing BGSA leadership and asking them to do it for you!  See @sec-computing to get started with GitHub.
