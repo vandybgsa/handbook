@@ -27,6 +27,6 @@ bookdown::render_book("index.Rmd", "bookdown::gitbook")
 ```
 
 ## helpful code and styling advice
-Ashley found [this](https://kramdown.gettalong.org/quickref.html) helpful when trying to wrangle some of the newer pages. 
+Ashley found [this](https://kramdown.gettalong.org/quickref.html) and [this](https://pkg.yihui.org/rmarkdown-cookbook/multi-column) helpful when trying to wrangle some of the newer pages. 
 
 Someone will probably eventually have to port this over to Quarto. Ashley did that on the main website and left all the old stuff in the "archive" subdirectory!
