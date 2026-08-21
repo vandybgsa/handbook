@@ -1,6 +1,7 @@
 --- 
-title: "Vanderbilt Biostatistics Graduate Student Handbook"
-author: "Lucy D'Agostino McGowan, Nathan James, Nick Strayer, Sandya Lakkur"
+title: "Vanderbilt Biostatistics Graduate Student Survival Guide"
+author: "Originally Written By: Lucy D'Agostino McGowan, Nathan James, Nick Strayer, and Sandya Lakkur \n
+(With Bonus Updates from Ruby Xiong and Ashley Mullan)"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -8,14 +9,19 @@ documentclass: book
 biblio-style: apalike
 link-citations: yes
 github-repo: vandybgsa/handbook
-description: "This is a handbook written by students for students in the Vanderbilt Biostatistics program"
+description: "This is an UNOFFICIAL survival guide written by students for students in the Vanderbilt Biostatistics program."
 ---
 
 # Introduction
 
 Welcome to Vanderbilt's Biostatistics Graduate Program! We are so happy you are here. This is meant to serve as a bit of a manual for incoming students to help your transition go a bit smoother. We have compiled our best & wildest advice into a beautiful [bookdown](https://bookdown.org/yihui/bookdown/) book. ENJOY (or else...)
 
+The original version of this book was written prior to 2020, and current BGSA leadership are in the process of revamping it with our most up-to-date advice. Email [Ashley Mullan](mailto:ashley.e.mullan@vanderbilt.edu) if you catch anything that needs an update.
+
+<strong style="color: #CFAE70;"> DISCLAIMER: Please note that this is an UNOFFICIAL guide, as is our [website](https://vandybgsa.github.io/). For all current university policy and procedure references, hop on over to the resources page [official program website](https://www.vanderbilt.edu/biostatistics-graduate/). Our department-issued student handbook lives there, as do links to other relevant offices. </strong>
+
+
 ![](http://imgs.xkcd.com/comics/manuals.png)
 
 
-The student handbook code is on github [here](https://github.com/vandybgsa/handbook). You can contribute by starting a new issue, modifying a page, or adding a new page.  See $\S$ \@ref(github) to get started with github.
+The student handbook code is on github [here](https://github.com/vandybgsa/handbook). You can contribute by starting a new issue, modifying a page, adding a new page, or emailing BGSA leadership and asking them to do it for you!  See $\S$ \@ref(github) to get started with github.

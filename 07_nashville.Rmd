@@ -1,0 +1,5 @@
+# Living in Nashville {#nash}
+
+Welcome to Nashville! Our students are working on creating a list of local recommendations.
+
+![](figs/under_construction.gif){width=100%}

@@ -56,3 +56,4 @@ integration-by-parts
 miscellaneous
 gamma-function
 beta-function
+nash
