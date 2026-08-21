@@ -15,9 +15,13 @@ book:
     - 04-conferences.qmd
     - 05-website.qmd
     - 06-math.qmd
+    - 07-nashville.qmd
   sidebar:
     style: docked
     background: "#CFAE70"
+  page-footer: 
+    left: "Last Updated: August 21, 2026"
+    right: "DISCLAIMER: This is an unofficial resource."
 
 bibliography: references.bib
 
