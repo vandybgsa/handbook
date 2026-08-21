@@ -1,7 +1,7 @@
 --- 
 title: "Vandy Biostats Grad Student Survival Guide"
-author: "Lucy D'Agostino McGowan*, Nathan James*, Nick Strayer*, Sandya Lakkur*, Ruby Xiong, and Ashley Mullan"
-date: "`r Sys.Date()`"
+author: "Lucy D'Agostino McGowan, Nathan James, Nick Strayer, Sandya Lakkur, Ruby Xiong, and Ashley Mullan"
+date: "`r paste0('Last Updated: ', format(Sys.Date(), format = '%B %d, %Y'))`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -13,20 +13,20 @@ description: "This is an UNOFFICIAL survival guide written by students for stude
 
 # Introduction
 
-Welcome to Vanderbilt's Biostatistics Graduate Program! We are so happy you are here. This is an UNOFFICIAL survival guide written by students for students in the Vanderbilt Biostatistics program. Thank you to the starred authors for getting this book started! 
+Welcome to Vanderbilt's Biostatistics Graduate Program! We are so happy you are here. This is an UNOFFICIAL survival guide written by students for students in the Vanderbilt Biostatistics program. Thank you to the original four authors (Lucy, Nathan, Nick, and Sandya) for getting this book started! 
 
 We hope this helps incoming students transition to our department more smoothly and serves as a reference for senior students. Graduate students throughout the history of the program have compiled our best & wildest advice into a beautiful [bookdown](https://bookdown.org/yihui/bookdown/) book. ENJOY (or else...)
 
 
 :::: {style="display: flex;"}
 
-::: {width=80%}
+::: {width=65%}
 
 The original version of this book was written prior to 2020, and current BGSA leadership are in the process of revamping it with our most up-to-date advice. Email [Ashley Mullan](mailto:ashley.e.mullan@vanderbilt.edu) if you catch anything that needs an update.
 
 :::
 
-::: {width=20%}
+::: {width=35%}
 
 ![](figs/under_construction.gif){width=100%}
 
