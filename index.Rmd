@@ -1,7 +1,6 @@
 --- 
-title: "Vanderbilt Biostatistics Graduate Student Survival Guide"
-author: "Originally Written By: Lucy D'Agostino McGowan, Nathan James, Nick Strayer, and Sandya Lakkur \n
-(With Bonus Updates from Ruby Xiong and Ashley Mullan)"
+title: "Vandy Biostats Grad Student Survival Guide"
+author: "Lucy D'Agostino McGowan*, Nathan James*, Nick Strayer*, Sandya Lakkur*, Ruby Xiong, and Ashley Mullan"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -9,7 +8,7 @@ documentclass: book
 biblio-style: apalike
 link-citations: yes
 github-repo: vandybgsa/handbook
-description: "This is an UNOFFICIAL survival guide written by students for students in the Vanderbilt Biostatistics program."
+description: "This is an UNOFFICIAL survival guide written by students for students in the Vanderbilt Biostatistics program. Thank you to the starred authors for getting this book started!"
 ---
 
 # Introduction
@@ -18,10 +17,12 @@ Welcome to Vanderbilt's Biostatistics Graduate Program! We are so happy you are 
 
 The original version of this book was written prior to 2020, and current BGSA leadership are in the process of revamping it with our most up-to-date advice. Email [Ashley Mullan](mailto:ashley.e.mullan@vanderbilt.edu) if you catch anything that needs an update.
 
-<strong style="color: #CFAE70;"> DISCLAIMER: Please note that this is an UNOFFICIAL guide, as is our [website](https://vandybgsa.github.io/). For all current university policy and procedure references, hop on over to the resources page [official program website](https://www.vanderbilt.edu/biostatistics-graduate/). Our department-issued student handbook lives there, as do links to other relevant offices. </strong>
+![](figs/under_construction.gif){width=100%}
+
+<strong style="color: #CFAE70;"> DISCLAIMER: Please note that this is an UNOFFICIAL guide, as is our [website](https://vandybgsa.github.io/). For all current university policy and procedure references, hop on over to the resources page on our [official program website](https://www.vanderbilt.edu/biostatistics-graduate/). Our department-issued student handbook lives there, as do links to other relevant offices. </strong>
 
 
-![](http://imgs.xkcd.com/comics/manuals.png)
+![](http://imgs.xkcd.com/comics/manuals.png){width=100%}
 
 
 The student handbook code is on github [here](https://github.com/vandybgsa/handbook). You can contribute by starting a new issue, modifying a page, adding a new page, or emailing BGSA leadership and asking them to do it for you!  See $\S$ \@ref(github) to get started with github.
