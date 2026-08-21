@@ -1,4 +1,6 @@
 book_filename: "handbook"
 chapter_name: "Chapter "
-css: "style.css"
+output:
+  bookdown::gitbook:
+    css: style.css
 output_dir: "docs"
