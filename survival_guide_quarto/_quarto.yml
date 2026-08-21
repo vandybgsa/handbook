@@ -25,6 +25,4 @@ format:
     theme:
       - cosmo
       - brand
-      - styles.scss
-
 
