@@ -1,35 +1,25 @@
-# handbook
-Vanderbilt Biostatistics Grad Student Handbook
+# The Survival Guide
+Vanderbilt Biostatistics Grad Student Survival Guide
 
 Currently hosted at https://vandybgsa.github.io/handbook/
 
-## DISCLAIMER
-<strong style="color: #CFAE70;"> DO NOT MESS WITH THIS BOOK UNTIL THIS WARNING DISAPPEARS! ASHLEY IS CURRENTLY PORTING IT OVER TO QUARTO! </strong>
-
-
 ## add chapter
-To add a chapter create a file called chapternumber_chaptername.qmd (for example 01_Introduction.Rmd). 
+To add a chapter create a file called chapternumber_chaptername.qmd (for example 01_Introduction.qmd). 
 
-## editing a chapter (DO NOT EDIT CHAPTERS UNTIL THE INSTRUCTIONS ARE REWRITTEN FOR THE QUARTO VERSION)
-1) Before you begin, make sure you: fork the repo, click "Clone or Download" button and copy the link. If you're a contributor to the organization, you don't need to fork.  
-2) Open R Studio and Click File< New Project<Version Control<Git  
-3) Copy the link into the top box, name the copied repository whatever you would like, and select a location for the repository to be stored  
-4) Edit the chapter you want, then save it  
-5) In the R Console run the following: `bookdown::render_book("index.Rmd","bookdown::gitbook")`  
-6) Click on the Git tab in the top right window of your R Studio  
-7) Click Commit  
-8) Click on the files you would like to commit  
-9) Add a commit message then click Commit  
-10) Click on the green arrow to push to github  
-11) Submit a pull request to the main repo so your changes can be incorporated. If you didn't fork, pushing without this step should do the trick.
+## editing a chapter 
+### members of BGSA GitHub organization
+1) Click the green Code button in the top right of the repo and the copy button.
+2) In RStudio, go into the Terminal on the bottom and `cd` your way into wherever you'd like to copy the repo.
+3) Clone the repo by typing `git clone XXXX` into the terminal, where XXXX is the URL you copied.
+4) Edit the QMD of the chapter you want to edit, and save your changes.
+5) Type `quarto render` into your terminal, which will generate HTML output in the *docs* directory.
+6) In the terminal, stage all your changes with `git add -A`. Feel free to check your work with `git status`.
+7) Commit your staged changes with `git commit -m YOUR_MESSAGE_HERE`.
+8) Push and deploy your changes with `git push`. This will update the build of the site via GitHub Pages.
 
-## compile handbook (DO NOT USE UNTIL EDITING SECTION ABOVE IS FIXED)
-After updating, be sure to compile the handbook by setting your working directory and running
+### nonmembers of BGSA GitHub Organization
+THIS SECTION IS UNDER CONSTRUCTION.
 
-```
-bookdown::render_book("index.Rmd", "bookdown::gitbook")
-```
 
 ## helpful code and styling advice
-Ashley found [this](https://kramdown.gettalong.org/quickref.html) and [this](https://pkg.yihui.org/rmarkdown-cookbook/multi-column) helpful when trying to wrangle some of the newer pages. 
-
+The Quarto book guide is your best friend here. It has lots of examples of documentation. Many former students host their websites with Quarto as well, and you can always nose through their source code for examples!
