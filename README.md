@@ -3,10 +3,14 @@ Vanderbilt Biostatistics Grad Student Handbook
 
 Currently hosted at https://vandybgsa.github.io/handbook/
 
-## add chapter
-To add a chapter create a file called chapternumber_chaptername.Rmd (for example 01_Introduction.Rmd). 
+## DISCLAIMER
+<strong style="color: #CFAE70;"> DO NOT MESS WITH THIS BOOK UNTIL THIS WARNING DISAPPEARS! ASHLEY IS CURRENTLY PORTING IT OVER TO QUARTO! </strong>
 
-## editing a chapter
+
+## add chapter
+To add a chapter create a file called chapternumber_chaptername.qmd (for example 01_Introduction.Rmd). 
+
+## editing a chapter (DO NOT EDIT CHAPTERS UNTIL THE INSTRUCTIONS ARE REWRITTEN FOR THE QUARTO VERSION)
 1) Before you begin, make sure you: fork the repo, click "Clone or Download" button and copy the link. If you're a contributor to the organization, you don't need to fork.  
 2) Open R Studio and Click File< New Project<Version Control<Git  
 3) Copy the link into the top box, name the copied repository whatever you would like, and select a location for the repository to be stored  
@@ -19,7 +23,7 @@ To add a chapter create a file called chapternumber_chaptername.Rmd (for example
 10) Click on the green arrow to push to github  
 11) Submit a pull request to the main repo so your changes can be incorporated. If you didn't fork, pushing without this step should do the trick.
 
-## compile handbook
+## compile handbook (DO NOT USE UNTIL EDITING SECTION ABOVE IS FIXED)
 After updating, be sure to compile the handbook by setting your working directory and running
 
 ```
@@ -29,4 +33,3 @@ bookdown::render_book("index.Rmd", "bookdown::gitbook")
 ## helpful code and styling advice
 Ashley found [this](https://kramdown.gettalong.org/quickref.html) and [this](https://pkg.yihui.org/rmarkdown-cookbook/multi-column) helpful when trying to wrangle some of the newer pages. 
 
-Someone will probably eventually have to port this over to Quarto. Ashley did that on the main website and left all the old stuff in the "archive" subdirectory!

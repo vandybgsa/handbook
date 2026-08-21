@@ -1,0 +1,30 @@
+project:
+  type: book
+
+book:
+  title: "Vandy Biostats Grad Student Survival Guide"
+  author: "Lucy D'Agostino McGowan, Nathan James, Nick Strayer, Sandya Lakkur, Ruby Xiong, and Ashley Mullan"
+  date: today
+  date-format: "long"
+  chapters:
+    - index.qmd
+    - 01-computing.qmd
+    - 02-resources.qmd
+    - 03-bgsa.qmd
+    - 04-conferences.qmd
+    - 05-website.qmd
+    - 06-math.qmd
+  sidebar:
+    style: docked
+    background: "#CFAE70"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+      - styles.scss
+
+

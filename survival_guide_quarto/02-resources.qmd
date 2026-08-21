@@ -1,0 +1,76 @@
+# Resources {#sec-resources}
+
+Here are a few miscellaneous links to resources that may save you some time. 
+
+## Books
+
+You can find a large portion of the textbooks required for classes online. Since it doesn't make sense for people to repeat the same search every year for textbooks we have assembled a dropbox folder containing all the currently known books. If you find a new book, make sure to [Slack](https://biostats.slack.com) it to Ashley and she can add it. Thank you to [Nick](https://nickstrayer.me/) for pioneering the folder!
+
+[All of the books ever](https://www.dropbox.com/sh/mea9q94nletfsdy/AACD5QC_-RZKfBakR6qSXVrSa?dl=0)
+
+## Comprehensive Exams 
+
+Check out the official [department website](https://www.vanderbilt.edu/biostatistics-graduate/) for the list of comprehensive exams required for your cohort and an archive of past exams.
+
+Below are some resources that previous students have developed to help you prepare for the comps.
+
+### First Year
+
+Lucy's [1st year comps survival guide](https://github.com/LucyMcGowan/comps-survival-guide) has printable flashcards and cartoons based on Foundations of Statistical Inference and Fundamentals of Probability
+
+Nathan's [inference notes](figs/comp_inf_notes.pdf) and [probability notes](figs/comp_prob_notes.pdf) outline many of the main ideas, formulas, theorems, etc. tested on the 1st year comps. You can use these as a starting point to develop your own study guides
+
+John Muschelli, a former Johns Hopkins biostatistics PhD student, wrote a blog post with some good [tips for first year comprehensive exams](https://hopstat.wordpress.com/2016/03/28/tips-for-first-year-comprehensive-exams/)
+
+### Second Year
+
+The 2nd year comp is a one week take-home exam. In some ways there is less time pressure than the 1st year comps, but more work and in-depth thought is required. Here are some tips:
+
+* Read through the entire exam once or twice before you start working on individual problems. This will allow you to note what topics are relevant for each problem and come up with a strategy for how to allocate enough time to complete each section.
+
+* You can get a head start by making a template for the analysis part of the exam. Check out past exams to get an idea of the general format for your template.
+
+* If you are doing simulations or models that take a while to run the `cache=TRUE` chunk option can save a lot of time. Consider separating the code chunks that run the analysis (e.g. fitting models) from code chunks that use the output of analysis (e.g. plotting predicted values or summarizing model fits). That way you won't have to re-run the time consuming code chunk if you only want to tweak a graph or summary table.
+
+## Orals Exam
+
+Here are a few orals exams document examples offered by some students who passed their orals. As of 2024, the student handbook requires the following for the orals exam:
+
+> To help focus the examination, the student prepares and presents a literature review or an active exploration of an advanced statistical method or concept. The presentation typically takes 30 minutes. The student also prepares an overview document that summarizes their review or exploration and demonstrates synthesis, familiarity, and command of the topic as well as outlining potential avenues of future research.
+
+The orals exam requirements varies a lot among advisors and depends a lot on dissertation progress. 
+
+----------------------------------------------------------------------------------------------------------
+Name              (Then) Advisor        Quote: Requirement from Their Advisor                 Link to document(s)
+-------------- ----------------- --------------------------------------------------------- --------------
+Megan Jones    Simon Vandekar           The only 'requirements' were a written document     [Slides and Document](https://github.com/MeganTJ21/Orals/tree/main)
+                                        over some statistical topic and corresponding    
+                                        slides for the exam portion.Since I had already 
+                                        finished one project and was starting on another,
+                                        he basically advised me to put the paper I had 
+                                        done as one of the sections (so it is the bulk 
+                                        of my written doc) and do some lit review related
+                                        to the next project.
+
+Yeji Ko        Ben French               One page background literature review and           [Slides](https://github.com/vandybgsa/handbook/blob/master/docs/orals_sample/Yeji_Ko_Oral%20exam%20slides.pdf)
+                                        presentation slides.                                [Document](https://github.com/vandybgsa/handbook/blob/master/docs/orals_sample/Yeji_Ko_Literature%20review.pdf)
+
+Max Rohde      Frank Harrell            I just sent in a rough draft of my tutorial paper   [Paper](https://onlinelibrary.wiley.com/doi/10.1002/sim.10133)
+               Ben French               in Statistics in Medicine (first dissertation 
+                                        paper).
+                                                         
+Lan Shi        Dandan Liu               Dandan has only required presentation slides and    [Slides](https://github.com/vandybgsa/handbook/blob/master/docs/orals_sample/Oral_LanShi.pptx)
+                                        no overview document is required.
+
+Joshua Slone   Bryan Shepherd           I think Bryan considers the document as a Pass/Fail [Slides](https://github.com/vandybgsa/handbook/blob/master/docs/orals_sample/Slone_qualifying%20exam.pptx)
+                                        completion requirement. He provided more feedback   [Document](https://github.com/vandybgsa/handbook/blob/master/docs/orals_sample/Qualifying_exam_Slone.pdf)
+                                        about the presentation. Also, though, the content 
+                                        was very similar so it applies to both.
+
+Ruby Xiong     Simon Vandekar           It is my first disseratation paper plus a           [Document](https://jiangmeirubyxiong.github.io/OralsExam/)
+                                        literature review for my second dissertation paper.
+                                        Simon did not care for document format so I 
+                                        experimented with quarto website.
+----------------------------------------------------------------------------------------------------------
+
+

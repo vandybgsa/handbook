@@ -1,0 +1,7 @@
+# Your Friendly Neighborhood BGSA {#sec-bgsa}
+
+The Biostatistics Graduate Student Association is a registered club at Vanderbilt and also a student chapter of the ASA! 
+
+Please see the (again, unofficial) [BGSA website](https://vandybgsa.github.io/) or our official [Anchorlink](https://anchorlink.vanderbilt.edu/organization/Biostatistics) page for more details about events we run, such as weekly journal club and the annual department Lightning Talks.
+
+![](figs/join_us_penguins.gif){width=100%}

@@ -1,0 +1,7 @@
+# Personal Websites {#sec-your_website}
+
+Today, more than ever, a website is like a business card. By having a nice website as a graduate student or academic, you are not only providing a one-stop-shop for all of your necessary information but also showing that you are savvy enough to know the importance of a high-quality web-presence and illustrating that you have the technical prowess to accomplish this. 
+
+Many of our current and former students host their websites with Quarto, just like this survival guide! Check back in September 2026 for a tutorial on making your own website, shamelessly reposted from Ashley's journal club workshop!
+
+![](figs/under_construction.gif){width=100%}
