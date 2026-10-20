@@ -10,8 +10,7 @@ You can find a large portion of the textbooks required for classes online. Since
 
 ## Courses Outside the Department
 
-Many past students have been approved by the director of graduate studies (DGS) to take electives outside of our department or transfer in a few credits from prior graduate study. Note that past approval does **NOT** guarantee future approval, and you should talk to the current DGS with any questions! Here are a few things that have gotten approved in the past.
-
+Many past students have been approved by the director of graduate studies (DGS) to take electives outside of our department or transfer in a few credits from prior graduate study. Note that past approval does **NOT** guarantee future approval, and you should talk to the current DGS with any questions! Here are a few things that have gotten approved in the past. Departments offering classes that might complement biostatistics include (but are not limited to) mathematics, computer science, electrical engineering, health policy, epidemiology, informatics, and genetics.
 
 ----------------------------------------------------------------------------------------------------------
 Course                                          Semester        Credit Granted      Notes
