@@ -8,6 +8,25 @@ You can find a large portion of the textbooks required for classes online. Since
 
 [All of the books ever](https://www.dropbox.com/sh/mea9q94nletfsdy/AACD5QC_-RZKfBakR6qSXVrSa?dl=0)
 
+## Courses Outside the Department
+
+Many past students have been approved by the director of graduate studies (DGS) to take electives outside of our department or transfer in a few credits from prior graduate study. Note that past approval does **NOT** guarantee future approval, and you should talk to the current DGS with any questions! Here are a few things that have gotten approved in the past.
+
+
+----------------------------------------------------------------------------------------------------------
+Course                                          Semester        Credit Granted      Notes
+------------------                              ---------       --------------      -----------------------
+EPID 8310 (Causal Inference)                    Fall 2026       1 Elective          Causal inference was last offered in BIOS in Fall 2024 when this course was approved
+
+STA779 (Statistical Aspects of Clinical Trials) Fall 2024       1 Elective          External course graded on A/B/C/D scale, approved as BIOS6000 after course description was provided
+
+CSC675 (Neural Networks and Deep Learning)      Fall 2024       1 Elective          External course graded on A/B/C/D scale, approved as BIOS6000 after course description was provided
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+
 ## Comprehensive Exams 
 
 Check out the official [department website](https://www.vanderbilt.edu/biostatistics-graduate/) for the list of comprehensive exams required for your cohort and an archive of past exams.
