@@ -1,7 +1,42 @@
+---
+execute:
+  freeze: false  # never re-render during project render
+engine: knitr 
+resources:
+  - "figs/websites.pdf"
+deck:
+  pdf: "figs/websites.pdf"
+---
+
 # Personal Websites {#sec-your_website}
 
 Today, more than ever, a website is like a business card. By having a nice website as a graduate student or academic, you are not only providing a one-stop-shop for all of your necessary information but also showing that you are savvy enough to know the importance of a high-quality web-presence and illustrating that you have the technical prowess to accomplish this. 
 
-Many of our current and former students host their websites with Quarto, just like this survival guide! Check back in September 2026 for a tutorial on making your own website, shamelessly reposted from Ashley's journal club workshop!
+Many of our current and former students host their websites with Quarto, just like this survival guide! Here are some [materials](figs/websites.pdf) adapted from a 2026 journal club seminar on building a website.
 
-![](figs/under_construction.gif){width=100%}
+
+```{css echo=FALSE}
+.embed-container {
+    position: relative;
+    padding-bottom: 129%;
+    height: 0;
+    overflow: hidden;
+    max-width: 130%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 130%;
+    height: 100%;
+}
+```
+
+```{=html}
+</p>
+<div class="embed-container">
+  <iframe src="`r rmarkdown::metadata$deck$pdf`#toolbar=0" style="border: 0.5px;width: 100%;"></iframe>
+</div>
+```
