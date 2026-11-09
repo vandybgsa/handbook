@@ -13,13 +13,15 @@ You can find a large portion of the textbooks required for classes online. Since
 Many past students have been approved by the director of graduate studies (DGS) to take electives outside of our department or transfer in a few credits from prior graduate study. Note that past approval does **NOT** guarantee future approval, and you should talk to the current DGS with any questions! Here are a few things that have gotten approved in the past. Departments offering classes that might complement biostatistics include (but are not limited to) mathematics, computer science, electrical engineering, health policy, epidemiology, informatics, and genetics.
 
 ----------------------------------------------------------------------------------------------------------
-Course                                          Semester        Credit Granted      Notes
-------------------                              ---------       --------------      -----------------------
-EPID 8310 (Causal Inference)                    Fall 2026       1 Elective          Causal inference was last offered in BIOS in Fall 2024 when this course was approved
+Course                                          Semester                      Credit Granted      Notes
+------------------                              ---------                     --------------      -----------------------
+EPID 8310 (Causal Inference)                    Fall 2026 (and earlier)       1 Elective          Causal inference was last offered in BIOS in Fall 2024 when this course was approved in 2026
 
-STA779 (Statistical Aspects of Clinical Trials) Fall 2024       1 Elective          External course graded on A/B/C/D scale, approved as BIOS6000 after course description was provided
+HGEN 8350 (Directed Study in Human Genetics)    Unknown                       1 Elective          Sometime between 2020 and 2025
 
-CSC675 (Neural Networks and Deep Learning)      Fall 2024       1 Elective          External course graded on A/B/C/D scale, approved as BIOS6000 after course description was provided
+STA779 (Statistical Aspects of Clinical Trials) Fall 2024                     1 Elective          External course graded on A/B/C/D scale, approved as BIOS6000 after course description was provided
+
+CSC675 (Neural Networks and Deep Learning)      Fall 2024                     1 Elective          External course graded on A/B/C/D scale, approved as BIOS6000 after course description was provided
 
 
 ----------------------------------------------------------------------------------------------------------
